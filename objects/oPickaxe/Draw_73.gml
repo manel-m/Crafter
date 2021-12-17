@@ -15,7 +15,4 @@ if (instance_exists(selectorInst)){
 	
 	//Reset selector instance
 	selectorInst = noone;
-
-
-
 }
