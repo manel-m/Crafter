@@ -16,6 +16,8 @@ with (_breakable){
 	
 	//In range
 	if (_dist < other.breakDistance){
+		// Set selector
+		other.selectorInst = id;
 		//click
 		if(other.cooldown == 0 && _mousePress){
 			//Reduce hp
