@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"collision","path":"scripts/collision/collision.yy",},"order":0,},
     {"id":{"name":"sTree","path":"sprites/sTree/sTree.yy",},"order":0,},
+    {"id":{"name":"oPickaxe","path":"objects/oPickaxe/oPickaxe.yy",},"order":4,},
     {"id":{"name":"oController","path":"objects/oController/oController.yy",},"order":2,},
     {"id":{"name":"sPlayer_Idle","path":"sprites/sPlayer_Idle/sPlayer_Idle.yy",},"order":0,},
     {"id":{"name":"oCollision","path":"objects/oCollision/oCollision.yy",},"order":0,},
@@ -11,6 +12,7 @@
     {"id":{"name":"oBush","path":"objects/oBush/oBush.yy",},"order":2,},
     {"id":{"name":"sBackground","path":"objects/sBackground/sBackground.yy",},"order":1,},
     {"id":{"name":"oTree","path":"objects/oTree/oTree.yy",},"order":3,},
+    {"id":{"name":"sPickaxe","path":"sprites/sPickaxe/sPickaxe.yy",},"order":5,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"oBreakableParent","path":"objects/oBreakableParent/oBreakableParent.yy",},"order":1,},
     {"id":{"name":"sCollision","path":"sprites/sCollision/sCollision.yy",},"order":3,},
