@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sTree",
-    "path": "sprites/sTree/sTree.yy",
+    "name": "sRock",
+    "path": "sprites/sRock/sRock.yy",
   },
   "solid": false,
   "visible": true,
@@ -33,7 +33,7 @@
     "path": "folders/Objects/World.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oTree",
+  "name": "oRock",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sTree",
-    "path": "sprites/sTree/sTree.yy",
+    "name": "sIronOre",
+    "path": "sprites/sIronOre/sIronOre.yy",
   },
   "solid": false,
   "visible": true,
@@ -33,7 +33,7 @@
     "path": "folders/Objects/World.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oTree",
+  "name": "oIronOre",
   "tags": [],
   "resourceType": "GMObject",
 }

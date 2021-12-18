@@ -6,9 +6,10 @@ if (hp < hpMax){
 	
 	//Draw healthbar fill
 	var _amount = hp / hpMax;
+	var _width = bbox_right - bbox_left;
 	
 	draw_set_color(hpColor);
-	draw_rectangle(bbox_left, _Y, bbox_left + sprite_width * _amount, _Y + hpHeight, 0);
+	draw_rectangle(bbox_left, _Y, bbox_left + _width * _amount, _Y + hpHeight, 0);
 	draw_set_color(-1);
 	
 	//Draw healthbar border
