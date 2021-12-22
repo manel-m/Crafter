@@ -23,7 +23,7 @@ if (hp <= 0){
 		
 		//Set item properties
 		with (_inst) {
-			type = _inst;
+			type = _res;
 			sprite_index = global.itemSprite[_res];
 			z = -other.sprite_height/2;
 		}

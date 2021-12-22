@@ -20,6 +20,7 @@
     {"id":{"name":"sIron","path":"sprites/sIron/sIron.yy",},"order":4,},
     {"id":{"name":"sApple","path":"sprites/sApple/sApple.yy",},"order":1,},
     {"id":{"name":"oTree","path":"objects/oTree/oTree.yy",},"order":3,},
+    {"id":{"name":"inventory","path":"scripts/inventory/inventory.yy",},"order":2,},
     {"id":{"name":"sPickaxe","path":"sprites/sPickaxe/sPickaxe.yy",},"order":5,},
     {"id":{"name":"oIronOre","path":"objects/oIronOre/oIronOre.yy",},"order":5,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
