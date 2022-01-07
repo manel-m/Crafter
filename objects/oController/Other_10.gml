@@ -1,5 +1,6 @@
-/// @description Create Inv UI
+/// @description Create Inv and crafting UI
 
+#region Inventory
 //Dimensions
 var _margin = 10;
 var _sep = 4;
@@ -41,3 +42,44 @@ for (var i=0; i< INV_SIZE; i++){
 	}
 	
 }
+
+#endregion
+
+#region Crafting
+
+//Properties
+
+var _w = 120;
+var _h = 26;
+var _x = RES.WIDTH -(_w + _margin);
+var _y = _sep;
+
+var _titleH = 12;
+
+// Create crafting buttons
+var _arr = global.craftingMenu;
+var _size = array_length(_arr);
+
+for (var i = 0; i< _size; i ++) {
+	var _item = _arr[i];
+	
+	//Title
+	
+	if (is_string(_item)) {
+		// create button title
+		
+		_y += (_titleH + _sep);
+	}
+	
+	// Crafting button
+	else {
+		createButtonCraft(_x, _y, _w, _h, _item);
+		
+		_y += (_h + _sep);
+	
+	}
+}
+
+
+
+#endregion

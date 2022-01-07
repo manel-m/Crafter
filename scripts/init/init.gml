@@ -10,7 +10,13 @@ function init(){
 		WOOD,
 		
 		STONE,
-		IRON
+		IRON,
+		
+		POTION,
+		SYROP,
+		BLOCK_WOOD,
+		BLOCK_IRON
+		
 	}
 	
 	global.itemSprite[ITEM.APPLE] = sApple;
@@ -22,6 +28,19 @@ function init(){
 	
 	//Inventory
 	#macro INV_SIZE 12
+	
+	//Crafting menu
+	global.craftingMenu = [
+		"CRAFTINGS",
+		"STATS",
+		ITEM.POTION,
+		ITEM.SYROP,
+		
+		"BUILDINGS",
+		ITEM.BLOCK_WOOD,
+		ITEM.BLOCK_IRON
+	
+	];
 
 
 }
