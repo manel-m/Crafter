@@ -10,4 +10,4 @@ draw_set_alpha(1);
 draw_set_color(c_white);
 
 //draw outline 
-draw_rectangle(x-1, y-1,  x+ width, y+ height, 1 );
+draw_rectangle(x, y,  x+ width+1, y+ height+1, 1 );

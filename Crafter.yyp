@@ -32,6 +32,7 @@
     {"id":{"name":"sPlayer_Move","path":"sprites/sPlayer_Move/sPlayer_Move.yy",},"order":1,},
     {"id":{"name":"oItem","path":"objects/oItem/oItem.yy",},"order":0,},
     {"id":{"name":"sRock","path":"sprites/sRock/sRock.yy",},"order":2,},
+    {"id":{"name":"ftUI","path":"fonts/ftUI/ftUI.yy",},"order":0,},
     {"id":{"name":"rmGame","path":"rooms/rmGame/rmGame.yy",},"order":0,},
   ],
   "Options": [
@@ -42,6 +43,10 @@
     {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"tvOS","path":"options/tvos/options_tvos.yy",},
     {"name":"operagx","path":"options/operagx/options_operagx.yy",},
+    {"name":"HTML5","path":"options/html5/options_html5.yy",},
+    {"name":"Linux","path":"options/linux/options_linux.yy",},
+    {"name":"Windows","path":"options/windows/options_windows.yy",},
+    {"name":"Windows UWP","path":"options/windowsuap/options_windowsuap.yy",},
   ],
   "isDnDProject": false,
   "isEcma": false,
@@ -84,7 +89,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.5.589",
+    "IDEVersion": "2.3.7.606",
   },
   "resourceVersion": "1.4",
   "name": "Crafter",
