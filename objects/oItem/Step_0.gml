@@ -4,10 +4,10 @@
 
 if (!collected && place_meeting(x,y,oPlayer)){
 	//Add to inventory
-	inv_add(type,1);
+	var added = inv_add(type,1);
 	
 	//Collected
-	collected = true;
+	collected = added;
 }
 
 if (collected){

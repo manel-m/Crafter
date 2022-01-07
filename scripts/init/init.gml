@@ -19,6 +19,9 @@ function init(){
 	
 	global.itemSprite[ITEM.STONE] = sStone;
 	global.itemSprite[ITEM.IRON] = sIron;
+	
+	//Inventory
+	#macro INV_SIZE 12
 
 
 }
