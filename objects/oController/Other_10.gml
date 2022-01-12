@@ -67,6 +67,8 @@ for (var i = 0; i< _size; i ++) {
 	
 	if (is_string(_item)) {
 		// create button title
+		show_debug_message("is string test TRUE")
+		createButtonTitle(_x, _y, _w, _titleH, _item);
 		
 		_y += (_titleH + _sep);
 	}
@@ -81,5 +83,6 @@ for (var i = 0; i< _size; i ++) {
 }
 
 
+cMenuHeight = _y - RES.HEIGHT;
 
 #endregion

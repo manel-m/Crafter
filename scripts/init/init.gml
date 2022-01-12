@@ -31,14 +31,18 @@ function init(){
 	
 	//Crafting menu
 	global.craftingMenu = [
-		"CRAFTINGS",
-		"STATS",
+		"CRAFTING",
+		"Stats",
 		ITEM.POTION,
 		ITEM.SYROP,
 		
-		"BUILDINGS",
+		"BUILDING",
 		ITEM.BLOCK_WOOD,
-		ITEM.BLOCK_IRON
+		ITEM.BLOCK_IRON,
+		
+		"TESt",
+		-1,
+		-1
 	
 	];
 
