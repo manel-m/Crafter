@@ -26,3 +26,25 @@ function inv_add(_item, _count) {
 	ds_list_add(_list, _arr);
 	return true;
 }
+
+function inv_get_item_array(_item){
+	//Get list
+	var _list = oController.invList;
+	var _listSize = ds_list_size(_list);
+	
+	//Get array from list
+	for (var i = 0; i < _listSize; i++){
+		//Array data
+		var _arr = _list[| i];
+		
+		if (is_array(_arr)) {
+			var _arrItem = _arr[0];
+			
+			//Check
+			if (_arrItem == _item) {
+				return _arr;
+			}
+		}
+	}
+	return -1 ;
+}
