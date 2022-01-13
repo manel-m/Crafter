@@ -43,13 +43,6 @@ with (oPlayer) {
 		draw_sprite(sHeart, _subImg, _startX + _dist * i, _startY);
 	
 	}
-	
-	//Debug
-	draw_text(_startX, _startY + 12, hp);
-	
-	if (keyboard_check_pressed(vk_left)) hp -= 0.25;
-	if (keyboard_check_pressed(vk_right)) hp += 0.25;
-
 }
 
 
