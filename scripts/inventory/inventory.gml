@@ -10,8 +10,21 @@ function inv_add(_item, _count) {
 		// Get array
 		var _arr = _list[| i];
 		//Check Item 
-		if (_arr[0] == _item) {
+		if (is_array(_arr) && _arr[0] == _item) {
 			_arr[@ 1] += _count;
+			return true;
+		}
+	}
+	
+	//Insert array
+	for (var i = 0 ; i < _listSize; i++) {
+		//Get array
+		var _arr = _list[| i];
+		
+		//Empty slot
+		if (!is_array(_arr)) {
+			_list[| i] = [_item, _count];
+			
 			return true;
 		}
 	}
@@ -47,4 +60,10 @@ function inv_get_item_array(_item){
 		}
 	}
 	return -1 ;
+}
+
+function inv_remove(_pos) {
+	//Remove 
+	var _list = oController.invList;
+	_list[| _pos] = -1;
 }
