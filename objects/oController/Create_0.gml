@@ -22,3 +22,7 @@ invList = ds_list_create();
 pause = false;
 
 pauseSurf= -1;
+
+//Crafting menu
+cMenuScroll = 0;
+cMenuHeight = 0;
