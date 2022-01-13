@@ -56,3 +56,10 @@ if (moveX != 0 && sign(moveX) != _signMouse) {
 else {
 	image_speed = 1;
 }
+
+//Die
+
+if (hp <= 0) {
+	instance_destroy();
+}
+

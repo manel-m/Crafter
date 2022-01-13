@@ -25,6 +25,7 @@
     {"id":{"name":"sBackground","path":"objects/sBackground/sBackground.yy",},"order":1,},
     {"id":{"name":"sIron","path":"sprites/sIron/sIron.yy",},"order":4,},
     {"id":{"name":"sApple","path":"sprites/sApple/sApple.yy",},"order":1,},
+    {"id":{"name":"sHeart","path":"sprites/sHeart/sHeart.yy",},"order":1,},
     {"id":{"name":"oTree","path":"objects/oTree/oTree.yy",},"order":3,},
     {"id":{"name":"inventory","path":"scripts/inventory/inventory.yy",},"order":2,},
     {"id":{"name":"sPickaxe","path":"sprites/sPickaxe/sPickaxe.yy",},"order":5,},
@@ -88,6 +89,7 @@
     {"folderPath":"folders/Sprites/GUI.yy","order":6,"resourceVersion":"1.0","name":"GUI","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Items.yy","order":7,"resourceVersion":"1.0","name":"Items","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Collectible.yy","order":6,"resourceVersion":"1.0","name":"Collectible","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/HUD.yy","order":8,"resourceVersion":"1.0","name":"HUD","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
