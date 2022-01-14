@@ -5,8 +5,8 @@
 event_inherited();
 
 //Ressources 
-res =[ITEM.WOOD];
-resCount = 2;
+res =[ITEM.STONE];
+resCount = 3;
 
 hp = 8;
 hpMax = hp;

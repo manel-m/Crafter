@@ -36,6 +36,7 @@ if (hover && lclick) {
 			break;
 			
 			case ITEM.BLOCK_WOOD:
+			case ITEM.ANGRY_STATUE:
 				pauseToggle();
 				
 				with (oPlayer) {

@@ -18,7 +18,8 @@ function init(){
 		POTION,
 		SYRUP,
 		BLOCK_WOOD,
-		BLOCK_IRON
+		BLOCK_IRON,
+		ANGRY_STATUE
 		
 	}
 	
@@ -51,6 +52,10 @@ function init(){
 	initItem(ITEM.BLOCK_IRON, "Iron Block", sBlock_Iron, [
 		[ITEM.IRON, 4]
 	]);
+	
+	initItem(ITEM.ANGRY_STATUE, "Angry Status", sAngryStatue, [
+		[ITEM.STONE, 3]
+	], oAngryStatue)
 
 
 	
@@ -64,11 +69,12 @@ function init(){
 		ITEM.POTION,
 		ITEM.SYRUP,
 		
-		"BUILDING",
+		"Buildings",
 		ITEM.BLOCK_WOOD,
 		ITEM.BLOCK_IRON,
 		
-	
+		"Statues",
+		ITEM.ANGRY_STATUE
 	
 	];
 }
