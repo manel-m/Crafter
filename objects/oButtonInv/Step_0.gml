@@ -1,7 +1,48 @@
 /// @description 
 
-//Remove
+//use 
+if (hover && lclick) {
+	//Get array
+	var _arr = oController.invList[| slotID];
+	
+	if (is_array(_arr)){
+		//Vars
+		var _item = _arr[0];
+		var _count = _arr[1];
+		
+		var _used = false;
+		
+		//Effects
+		instance_activate_object(oPlayer);
+		
+		switch (_item) {
+			case ITEM.POTION:
+				with (oPlayer) {
+					if (hp < hpMax) {
+						hp ++;
+						_used= true;
+						if (hp > hpMax) hp = hpMax;
+					}
+				}
+			break;
+		}
+	}
+	instance_deactivate_object(oPlayer);
+	
+	//Used
+	if (_used) {
+		//Reduce count
+		_arr[@ 1] --;
+		
+		show_debug_message("the item was used")
+	} else {
+		show_debug_message("the item couldn't be used")
+	}
+	
 
+}
+
+//Remove
 if (hover && rclick) {
 	 var _arr = oController.invList[| slotID];
 	 
