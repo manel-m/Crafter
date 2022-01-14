@@ -3,3 +3,7 @@
 function collision(_x, _y){
 	return place_meeting(_x,_y, oCollision);
 }
+
+function collision_entity (_x, _y) {
+	return place_meeting(_x,_y, oPlayer) || place_meeting(_x,_y, oNPCParent) ;
+} 
