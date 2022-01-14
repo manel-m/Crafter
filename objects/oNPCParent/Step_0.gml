@@ -5,6 +5,15 @@
 moveX= inputX * moveSpeed;
 moveY= inputY * moveSpeed;
 
+//Boost
+moveX += round(boostX);
+moveY += round(boostY);
+
+boostX = lerp(boostX, 0, 0.1);
+boostY = lerp(boostY, 0, 0.1);
+
+
+
 //Collisions 
 if(collision(x + moveX,y)){
 	while (!collision(x + sign(moveX),y)){

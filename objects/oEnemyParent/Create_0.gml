@@ -20,3 +20,7 @@ followDistance = 80;
 //Roaming
 roamDistance = 64;
 roamTime = 0;
+
+//Attack
+attackCooldown = 0;
+attackRadius = 8;

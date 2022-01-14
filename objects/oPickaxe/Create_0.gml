@@ -6,6 +6,9 @@ cooldown = 0;
 rotation = 45;
 breakDistance = 32;
 
+//Attacking
+attackDistance =8;
+
 //Selector 
 selectorInst = noone;
 selectorFrame = 0;

@@ -13,6 +13,13 @@ var _inputY =  _down- _up;
 moveX= _inputX * moveSpeed;
 moveY= _inputY * moveSpeed;
 
+//Boost
+moveX += round(boostX);
+moveY += round(boostY);
+
+boostX = lerp(boostX, 0, 0.1);
+boostY = lerp(boostY, 0, 0.1);
+
 //Collisions 
 if(collision(x + moveX,y)){
 	while (!collision(x + sign(moveX),y)){
@@ -61,5 +68,6 @@ else {
 
 if (hp <= 0) {
 	instance_destroy();
+	oController.alarm[0] = 60;
 }
 

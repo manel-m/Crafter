@@ -12,6 +12,7 @@
     {"id":{"name":"oNPCParent","path":"objects/oNPCParent/oNPCParent.yy",},"order":7,},
     {"id":{"name":"sWood","path":"sprites/sWood/sWood.yy",},"order":2,},
     {"id":{"name":"sPlayer_Idle","path":"sprites/sPlayer_Idle/sPlayer_Idle.yy",},"order":0,},
+    {"id":{"name":"Attacking","path":"scripts/Attacking/Attacking.yy",},"order":4,},
     {"id":{"name":"oCollision","path":"objects/oCollision/oCollision.yy",},"order":0,},
     {"id":{"name":"sStone","path":"sprites/sStone/sStone.yy",},"order":3,},
     {"id":{"name":"sIronOre","path":"sprites/sIronOre/sIronOre.yy",},"order":3,},
