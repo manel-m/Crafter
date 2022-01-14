@@ -1,5 +1,8 @@
 /// @description 
 
+//Juice
+Juice_Step();
+
 // Collision with Player
 
 if (!collected && place_meeting(x,y,oPlayer)){
@@ -8,6 +11,9 @@ if (!collected && place_meeting(x,y,oPlayer)){
 	
 	//Collected
 	collected = added;
+	
+	//Juice
+	Juice_ApplyScaling(xscale, yscale, 0.5, 1.5);
 }
 
 if (collected){
@@ -28,5 +34,7 @@ if (z < 0){
 	if (z >= 0){
 		z = 0;
 		zspd = 0;
+		
+		Juice_ApplyScaling(1.4, 0.7, 1, 1);
 	}
 }

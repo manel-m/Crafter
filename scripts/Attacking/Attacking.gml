@@ -8,4 +8,16 @@ function getAttacked( _attacker){
 			
 	boostX = lengthdir_x(knockbackSpeed, _dir);
 	boostY = lengthdir_y(knockbackSpeed, _dir);
+	
+	//Juice
+	Juice_ApplyScaling(0.5, 1.5, 1, 1);
+	
+	if (_attacker == oPlayer) {
+		Juice_ApplyFlash(c_white, 1);
+	} else {
+		Juice_ApplyFlash(c_red, 1);
+
+	}
+	
+	
 }

@@ -1,6 +1,7 @@
 /// @description 
 
-
+//JUice
+Juice_Step();
 // Get movment speed 
 moveX= inputX * moveSpeed;
 moveY= inputY * moveSpeed;

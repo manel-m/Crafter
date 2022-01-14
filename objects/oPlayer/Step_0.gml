@@ -1,4 +1,7 @@
 /// @description 
+//Juice
+Juice_Step();
+
 // Get input buttons 
 var _right = keyboard_check(vk_right)or keyboard_check(ord("D"));
 var _left = keyboard_check(vk_left)or keyboard_check(ord("A"));

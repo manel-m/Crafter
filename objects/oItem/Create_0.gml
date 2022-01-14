@@ -1,4 +1,7 @@
 /// @description 
+//Juice
+Juice_Create();
+
 //Properties
 type = -1;
 

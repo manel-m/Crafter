@@ -1,4 +1,6 @@
 /// @description 
+Juice_Step();
+
 if (hp <= 0){
 	instance_destroy();
 	

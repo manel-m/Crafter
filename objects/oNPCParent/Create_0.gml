@@ -1,4 +1,7 @@
 /// @description 
+//Juice
+Juice_Create();
+
 //Properties 
 moveSpeed = 1;
 knockbackSpeed = 4;
