@@ -25,9 +25,32 @@ if (hover && lclick) {
 					}
 				}
 			break;
+			
+			case ITEM.APPLE:
+				with (oPlayer){
+					if (hp < hpMax){
+						hp += 0.5;
+						_used = true;
+					}
+				}
+			break;
+			
+			case ITEM.BLOCK_WOOD:
+				pauseToggle();
+				
+				with (oPlayer) {
+					placingObj = global.itemPlaceable[_item];
+					
+					event_user(0);
+				}
+				
+				_used = true;
+			break;
 		}
 	}
-	instance_deactivate_object(oPlayer);
+	
+	
+	if (oController.pause) instance_deactivate_object(oPlayer);
 	
 	//Used
 	if (_used) {

@@ -1,6 +1,9 @@
 // run some code before the game starts
 gml_pragma("global", "init()");
 
+//Placing
+#macro PLACING_GRID_SIZE 16
+
 function init(){
 	
 	//Items
@@ -43,8 +46,8 @@ function init(){
 		[ITEM.APPLE, 2 ]
 	]);
 	initItem(ITEM.BLOCK_WOOD,"Wood Block", sBlock_Wood, [
-		[ITEM.WOOD, 5]
-	]);
+		[ITEM.WOOD, 2]
+	], oWoodBlock);
 	initItem(ITEM.BLOCK_IRON, "Iron Block", sBlock_Iron, [
 		[ITEM.IRON, 4]
 	]);
@@ -70,12 +73,14 @@ function init(){
 	];
 }
 
-function initItem (item, name, sprite, recipe){
+function initItem (item, name, sprite, recipe, placeable ){
 	
 	var _item = item;
 	global.itemName[_item] = name;
 	global.itemSprite[_item] = sprite;
 	global.itemRecipe[_item] = recipe;
+	
+	global.itemPlaceable[_item] = (argument_count > 4 ? argument[4] : noone);
 
 
 }
