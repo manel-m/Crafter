@@ -28,3 +28,19 @@ if (placingMode && instance_exists(placingInst)) {
 		event_user(1);
 	}
 }
+
+//Open chest
+var _chest = collision_circle(x, y, 12, oChestParent, false, false);
+
+if (instance_exists(_chest)) {
+	//show E key
+	showKey = sButtonE;
+	
+	//Open chest
+	if (keyboard_check_pressed(ord("E"))) {
+		pauseToggle(_chest);
+	}
+}
+
+
+

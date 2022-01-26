@@ -1,6 +1,8 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
-function pauseToggle(){
+
+
+function pauseToggle(_chestID){
 
 	with (oPlayer) {
 		if (placingMode) {
@@ -23,8 +25,15 @@ function pauseToggle(){
 			//copy
 			surface_copy(pauseSurf,0,0,application_surface);
 		
+			//Chest UI
+			if (!is_undefined(_chestID)) {
+				chestID = _chestID;
+				event_user(2);
+			} else {
 			//UI
-			event_user(0);
+				event_user(0);
+			}
+			
 		
 		}
 		// Resume

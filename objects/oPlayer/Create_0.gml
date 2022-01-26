@@ -26,3 +26,6 @@ hpMax = hp;
 placingMode = false;
 placingObj = noone;
 placingInst = noone;
+
+//Show key
+showKey = -1;

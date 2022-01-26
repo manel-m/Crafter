@@ -23,6 +23,8 @@ pause = false;
 
 pauseSurf= -1;
 
+chestID = noone;
+
 //Crafting menu
 cMenuScroll = 0;
 cMenuHeight = 0;

@@ -35,8 +35,12 @@ if (hover && lclick) {
 				}
 			break;
 			
-			case ITEM.BLOCK_WOOD:
-			case ITEM.ANGRY_STATUE:
+			
+			default:
+			//case ITEM.BLOCK_WOOD:
+			//case ITEM.ANGRY_STATUE:
+			//case ITEM.WOODEN_CHEST:
+			if (global.itemPlaceable[_item]) != noone {
 				pauseToggle();
 				
 				with (oPlayer) {
@@ -46,6 +50,8 @@ if (hover && lclick) {
 				}
 				
 				_used = true;
+			}
+				
 			break;
 		}
 	}

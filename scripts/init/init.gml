@@ -19,7 +19,9 @@ function init(){
 		SYRUP,
 		BLOCK_WOOD,
 		BLOCK_IRON,
-		ANGRY_STATUE
+		ANGRY_STATUE,
+		WOODEN_CHEST
+		
 		
 	}
 	
@@ -55,7 +57,11 @@ function init(){
 	
 	initItem(ITEM.ANGRY_STATUE, "Angry Status", sAngryStatue, [
 		[ITEM.STONE, 3]
-	], oAngryStatue)
+	], oAngryStatue);
+	
+	initItem(ITEM.WOODEN_CHEST, "Wooden Chest",sWoodenChest, [
+		[ITEM.WOOD, 3]
+	], oWoodenChest);
 
 
 	
@@ -74,7 +80,10 @@ function init(){
 		ITEM.BLOCK_IRON,
 		
 		"Statues",
-		ITEM.ANGRY_STATUE
+		ITEM.ANGRY_STATUE,
+		
+		"Chests",
+		ITEM.WOODEN_CHEST
 	
 	];
 }
