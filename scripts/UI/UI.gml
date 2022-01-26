@@ -35,3 +35,37 @@ function createButtonTitle(_x, _y, _w, _h, _title){
 
 }
 
+
+function createButtonMoveable(_x, _y, _w, _h, _list, _slot) {
+	
+	//Create button
+	var _inst = instance_create_depth(_x, _y, 0, oButtonInvMoveable);
+	
+	with (_inst) {
+		width = _w;
+		height = _h;
+		
+		list = _list;
+		slotID = _slot;
+	
+	}
+	
+	return _inst
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
