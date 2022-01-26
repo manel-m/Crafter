@@ -20,7 +20,8 @@ function init(){
 		BLOCK_WOOD,
 		BLOCK_IRON,
 		ANGRY_STATUE,
-		WOODEN_CHEST
+		WOODEN_CHEST,
+		WOODEN_CHEST_LARGE
 		
 		
 	}
@@ -62,6 +63,10 @@ function init(){
 	initItem(ITEM.WOODEN_CHEST, "Wooden Chest",sWoodenChest, [
 		[ITEM.WOOD, 3]
 	], oWoodenChest);
+	
+	initItem(ITEM.WOODEN_CHEST_LARGE, "Large Wooden Chest",sWoodenChestLarge, [
+		[ITEM.WOOD, 6]
+	], oWoodenChestLarge);
 
 
 	
@@ -83,7 +88,8 @@ function init(){
 		ITEM.ANGRY_STATUE,
 		
 		"Chests",
-		ITEM.WOODEN_CHEST
+		ITEM.WOODEN_CHEST,
+		ITEM.WOODEN_CHEST_LARGE
 	
 	];
 }

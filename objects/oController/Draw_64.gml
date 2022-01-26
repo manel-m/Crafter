@@ -45,6 +45,20 @@ with (oPlayer) {
 	}
 }
 
+if (is_array(movingArray)) {
+	//Item data
+	var _item = movingArray[0];
+	var _spr = global.itemSprite[_item];
+	
+	//Mouse position
+	var _mouseX = device_mouse_x_to_gui(0);
+	var _mouseY = device_mouse_y_to_gui(0);
+	
+	//Draw item
+	draw_sprite(_spr, 0, _mouseX, _mouseY);
+
+}
+
 
 
 

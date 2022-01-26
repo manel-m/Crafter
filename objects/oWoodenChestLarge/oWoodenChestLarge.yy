@@ -1,12 +1,15 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "sPlaceableWoodenChestLarge",
+    "path": "sprites/sPlaceableWoodenChestLarge/sPlaceableWoodenChestLarge.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oButtonParent",
-    "path": "objects/oButtonParent/oButtonParent.yy",
+    "name": "oChestParent",
+    "path": "objects/oChestParent/oChestParent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -22,17 +25,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GUI",
-    "path": "folders/Objects/GUI.yy",
+    "name": "Chests",
+    "path": "folders/Objects/World/Placeable/Chests.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oButtonInvMoveable",
+  "name": "oWoodenChestLarge",
   "tags": [],
   "resourceType": "GMObject",
 }

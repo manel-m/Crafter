@@ -3,6 +3,12 @@
 
 
 function pauseToggle(_chestID){
+	
+	//Moving an array
+	if (is_array(oController.movingArray)) {
+		return;
+	}
+	
 
 	with (oPlayer) {
 		if (placingMode) {

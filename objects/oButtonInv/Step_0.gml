@@ -64,6 +64,9 @@ if (hover && lclick) {
 		//Reduce count
 		_arr[@ 1] --;
 		
+		//Check if empty
+		event_user(0);
+		
 		show_debug_message("the item was used")
 	} else {
 		show_debug_message("the item couldn't be used")

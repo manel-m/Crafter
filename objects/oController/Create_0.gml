@@ -24,7 +24,9 @@ pause = false;
 pauseSurf= -1;
 
 chestID = noone;
+movingArray = -1;
 
 //Crafting menu
 cMenuScroll = 0;
 cMenuHeight = 0;
+
