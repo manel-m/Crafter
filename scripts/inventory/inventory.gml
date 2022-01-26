@@ -11,7 +11,20 @@ function inv_add(_item, _count) {
 		var _arr = _list[| i];
 		//Check Item 
 		if (is_array(_arr) && _arr[0] == _item) {
-			_arr[@ 1] += _count;
+			
+			var _maxStackSize = global.itemStackSize[_item];
+			var _updatedStackSize = _arr[1] + _count;
+			
+			_arr[@ 1] = min(_updatedStackSize, _maxStackSize);
+			
+			// Continue if more if left
+			var _leftover = _updatedStackSize - _maxStackSize;
+			
+			if (_leftover > 0) {
+				_count = _leftover;
+				continue;
+			}
+			
 			return true;
 		}
 	}

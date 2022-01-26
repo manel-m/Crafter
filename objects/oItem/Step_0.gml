@@ -13,7 +13,7 @@ if (!collected && place_meeting(x,y,oPlayer)){
 	collected = added;
 	
 	//Juice
-	Juice_ApplyScaling(xscale, yscale, 0.5, 1.5);
+	if (added) Juice_ApplyScaling(xscale, yscale, 0.5, 1.5);
 }
 
 if (collected){

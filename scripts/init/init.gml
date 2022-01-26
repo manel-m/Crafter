@@ -30,8 +30,8 @@ function init(){
 	//global.itemSprite[ITEM.ORANGE] = sOrange;
 	//global.itemSprite[ITEM.WOOD] = sWood;
 	
-	initItem(ITEM.APPLE, "Apple", sApple, []);
-	initItem(ITEM.ORANGE, "Orange", sOrange, []);
+	initItem(ITEM.APPLE, "Apple", sApple, [], undefined, 4);
+	initItem(ITEM.ORANGE, "Orange", sOrange, [],undefined, 2);
 	initItem(ITEM.WOOD, "Wood", sWood, []);
 
 	
@@ -94,14 +94,14 @@ function init(){
 	];
 }
 
-function initItem (item, name, sprite, recipe, placeable ){
+function initItem (_item, _name, _sprite, _recipe, _placeable, _stackSize ){
 	
-	var _item = item;
-	global.itemName[_item] = name;
-	global.itemSprite[_item] = sprite;
-	global.itemRecipe[_item] = recipe;
+	global.itemName[_item] = _name;
+	global.itemSprite[_item] = _sprite;
+	global.itemRecipe[_item] = _recipe;
 	
-	global.itemPlaceable[_item] = (argument_count > 4 ? argument[4] : noone);
+	global.itemPlaceable[_item] = (_placeable != undefined ? _placeable : noone);
+	global.itemStackSize[_item] = (_stackSize != undefined ? _stackSize : 64);
 
 
 }
