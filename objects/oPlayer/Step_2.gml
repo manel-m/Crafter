@@ -1,8 +1,15 @@
 /// @description 
 //Move held Item
 if (instance_exists(heldItem)){
-	heldItem.x = x - 2 *image_xscale;
+	heldItem.x = x - 2 * image_xscale;
 	heldItem.y = y + 5;
+}
+
+if (instance_exists(hair)){
+	hair.x = x ;
+	hair.y = y ;
+	
+	hair.image_xscale = image_xscale;
 }
 
 //Placing mode
