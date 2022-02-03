@@ -26,17 +26,12 @@ function init(){
 		
 	}
 	
-	//global.itemSprite[ITEM.APPLE] = sApple;
-	//global.itemSprite[ITEM.ORANGE] = sOrange;
-	//global.itemSprite[ITEM.WOOD] = sWood;
 	
-	initItem(ITEM.APPLE, "Apple", sApple, [], undefined, 4);
-	initItem(ITEM.ORANGE, "Orange", sOrange, [],undefined, 2);
+	initItem(ITEM.APPLE, "Apple", sApple, [], undefined, 8);
+	initItem(ITEM.ORANGE, "Orange", sOrange, [],undefined, 8);
 	initItem(ITEM.WOOD, "Wood", sWood, []);
 
 	
-	//global.itemSprite[ITEM.STONE] = sStone;
-	//global.itemSprite[ITEM.IRON] = sIron;
 	initItem(ITEM.STONE, "Stone", sStone, []);
 	initItem(ITEM.IRON, "Iron", sIron, []);
 	
