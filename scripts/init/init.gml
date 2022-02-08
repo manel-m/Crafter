@@ -11,6 +11,9 @@ function init(){
 		APPLE,
 		ORANGE,
 		WOOD,
+		CARROT,
+		SUNFLOWER,
+		POTATO,
 		
 		STONE,
 		IRON,
@@ -30,6 +33,9 @@ function init(){
 	initItem(ITEM.APPLE, "Apple", sApple, [], undefined, 8);
 	initItem(ITEM.ORANGE, "Orange", sOrange, [],undefined, 8);
 	initItem(ITEM.WOOD, "Wood", sWood, []);
+	initItem(ITEM.CARROT, "Carrot", sCarrot, []);
+	initItem(ITEM.SUNFLOWER, "Sunflower", sSunflower, [], undefined,6);
+	initItem(ITEM.POTATO, "Potato", sPotato, [], undefined,6);
 
 	
 	initItem(ITEM.STONE, "Stone", sStone, []);
