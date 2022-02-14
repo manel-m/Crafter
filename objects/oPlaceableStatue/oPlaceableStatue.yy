@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sPlacableAngryStatue",
-    "path": "sprites/sPlacableAngryStatue/sPlacableAngryStatue.yy",
+    "name": "sPlaceableStatue",
+    "path": "sprites/sPlaceableStatue/sPlaceableStatue.yy",
   },
   "solid": false,
   "visible": true,
@@ -33,7 +33,7 @@
     "path": "folders/Objects/World/Placeable.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oAngryStatue",
+  "name": "oPlaceableStatue",
   "tags": [],
   "resourceType": "GMObject",
 }
