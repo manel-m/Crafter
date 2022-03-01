@@ -2,7 +2,8 @@
 
 // Rotation
 rotation = lerp(rotation, 45, 0.1);
-image_angle = rotation * oPlayer.image_xscale;
+//rotation = lerp(rotation, 45, 0.1);
+image_angle = rotation * oPlayer.image_xscale + 45;
 
 // Get input 
 var _mousePress = mouse_check_button(mb_left);

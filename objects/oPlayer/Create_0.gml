@@ -17,6 +17,9 @@ boostY = 0;
 //Create pickase 
 heldItem = instance_create_layer(x,y,"Instances",oPickaxe);
 
+//Create hair
+hair = instance_create_layer(x,y, "Instances", oHair);
+
 
 //Health
 hp = 3;

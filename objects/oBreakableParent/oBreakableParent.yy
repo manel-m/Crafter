@@ -5,8 +5,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oCollision",
-    "path": "objects/oCollision/oCollision.yy",
+    "name": "oBuilding",
+    "path": "objects/oBuilding/oBuilding.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

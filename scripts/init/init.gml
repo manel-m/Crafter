@@ -11,6 +11,9 @@ function init(){
 		APPLE,
 		ORANGE,
 		WOOD,
+		CARROT,
+		SUNFLOWER,
+		POTATO,
 		
 		STONE,
 		IRON,
@@ -19,24 +22,23 @@ function init(){
 		SYRUP,
 		BLOCK_WOOD,
 		BLOCK_IRON,
-		ANGRY_STATUE,
+		
+		STATUE,
 		WOODEN_CHEST,
 		WOODEN_CHEST_LARGE
 		
 		
 	}
 	
-	//global.itemSprite[ITEM.APPLE] = sApple;
-	//global.itemSprite[ITEM.ORANGE] = sOrange;
-	//global.itemSprite[ITEM.WOOD] = sWood;
 	
-	initItem(ITEM.APPLE, "Apple", sApple, [], undefined, 4);
-	initItem(ITEM.ORANGE, "Orange", sOrange, [],undefined, 2);
+	initItem(ITEM.APPLE, "Apple", sApple, [], undefined, 8);
+	initItem(ITEM.ORANGE, "Orange", sOrange, [],undefined, 8);
 	initItem(ITEM.WOOD, "Wood", sWood, []);
+	initItem(ITEM.CARROT, "Carrot", sCarrot, []);
+	initItem(ITEM.SUNFLOWER, "Sunflower", sSunflower, [], undefined,6);
+	initItem(ITEM.POTATO, "Potato", sPotato, [], undefined,6);
 
 	
-	//global.itemSprite[ITEM.STONE] = sStone;
-	//global.itemSprite[ITEM.IRON] = sIron;
 	initItem(ITEM.STONE, "Stone", sStone, []);
 	initItem(ITEM.IRON, "Iron", sIron, []);
 	
@@ -56,9 +58,9 @@ function init(){
 		[ITEM.IRON, 4]
 	]);
 	
-	initItem(ITEM.ANGRY_STATUE, "Angry Status", sAngryStatue, [
+	initItem(ITEM.STATUE, "Statue", sStatue, [
 		[ITEM.STONE, 3]
-	], oAngryStatue);
+	], oPlaceableStatue);
 	
 	initItem(ITEM.WOODEN_CHEST, "Wooden Chest",sWoodenChest, [
 		[ITEM.WOOD, 3]
@@ -85,7 +87,7 @@ function init(){
 		ITEM.BLOCK_IRON,
 		
 		"Statues",
-		ITEM.ANGRY_STATUE,
+		ITEM.STATUE,
 		
 		"Chests",
 		ITEM.WOODEN_CHEST,
