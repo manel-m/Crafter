@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "sTree",
-    "path": "sprites/sTree/sTree.yy",
+    "name": "sTrunk",
+    "path": "sprites/sTrunk/sTrunk.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oBreakableParent",
-    "path": "objects/oBreakableParent/oBreakableParent.yy",
+    "name": "oCollision",
+    "path": "objects/oCollision/oCollision.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,10 +23,7 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
@@ -34,7 +31,7 @@
     "path": "folders/Objects/World.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oTree",
+  "name": "oTrunk",
   "tags": [],
   "resourceType": "GMObject",
 }
