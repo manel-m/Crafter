@@ -27,9 +27,7 @@ function init(){
 		WOODEN_CHEST,
 		WOODEN_CHEST_LARGE
 		
-		
 	}
-	
 	
 	initItem(ITEM.APPLE, "Apple", sApple, [], undefined, 8);
 	initItem(ITEM.ORANGE, "Orange", sOrange, [],undefined, 8);

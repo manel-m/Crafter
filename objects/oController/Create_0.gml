@@ -29,4 +29,8 @@ movingArray = -1;
 //Crafting menu
 cMenuScroll = 0;
 cMenuHeight = 0;
+	
+// add some starting items to the inventory
+inv_add(ITEM.WOOD, 5);
+inv_add(ITEM.STONE,4);
 
