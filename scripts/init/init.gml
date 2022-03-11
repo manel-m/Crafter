@@ -61,7 +61,7 @@ function init(){
 		[ITEM.STONE, 3]
 	], oPlaceableStatue);
 	
-	initItem(ITEM.WOOD_FENCE, "Fence", sFence, [
+	initItem(ITEM.WOOD_FENCE, "Fence", sWoodFence, [
 		[ITEM.WOOD, 1]
 	], oWoodFence);
 	

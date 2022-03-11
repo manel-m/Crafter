@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sFence",
-    "path": "sprites/sFence/sFence.yy",
+    "name": "sWoodFence",
+    "path": "sprites/sWoodFence/sWoodFence.yy",
   },
   "solid": false,
   "visible": true,

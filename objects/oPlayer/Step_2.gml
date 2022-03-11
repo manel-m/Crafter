@@ -36,7 +36,10 @@ if (placingMode && instance_exists(placingInst)) {
 			// we just placed a wood fence
 			with (placingInst){
 				image_index = computeFenceIndex(x,y);
-				show_debug_message(image_index);
+				updateFenceIfExist(x + PLACING_GRID_SIZE, y);
+				updateFenceIfExist(x - PLACING_GRID_SIZE, y);
+				updateFenceIfExist(x, y + PLACING_GRID_SIZE);
+				updateFenceIfExist(x, y - PLACING_GRID_SIZE);
 			}
 		
 
