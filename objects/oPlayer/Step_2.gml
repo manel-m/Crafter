@@ -31,7 +31,17 @@ if (placingMode && instance_exists(placingInst)) {
 	else placingInst.image_blend = c_white;
 	
 	//Place
-	if (!_colliding && mouse_check_button_pressed(mb_left)) {
+	if (!_colliding && mouse_check_button_pressed(mb_left)) {			
+		if (placingInst.object_index == oWoodFence) {
+			// we just placed a wood fence
+			with (placingInst){
+				image_index = computeFenceIndex(x,y);
+				show_debug_message(image_index);
+			}
+		
+
+		}
+		
 		event_user(1);
 	}
 }
