@@ -41,10 +41,7 @@ if (placingMode && instance_exists(placingInst)) {
 				updateFenceIfExist(x, y + PLACING_GRID_SIZE);
 				updateFenceIfExist(x, y - PLACING_GRID_SIZE);
 			}
-		
-
 		}
-		
 		event_user(1);
 	}
 }

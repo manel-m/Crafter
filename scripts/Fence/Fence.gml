@@ -11,7 +11,7 @@ function computeFenceIndex(_x, _y) {
 function findFence(_x, _y) {
 	for (var i = 0; i < instance_number(oWoodFence); ++i;) {
 		var fence = instance_find(oWoodFence, i);
-		if (fence.x == _x && fence.y == _y) return fence;
+		if (fence.visible && fence.x == _x && fence.y == _y) return fence;
 	}
 	return noone;
 }
