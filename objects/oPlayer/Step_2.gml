@@ -35,13 +35,25 @@ if (placingMode && instance_exists(placingInst)) {
 		if (placingInst.object_index == oWoodFence) {
 			// we just placed a wood fence
 			with (placingInst){
-				image_index = computeFenceIndex(x,y);
-				updateFenceIfExist(x + PLACING_GRID_SIZE, y);
-				updateFenceIfExist(x - PLACING_GRID_SIZE, y);
-				updateFenceIfExist(x, y + PLACING_GRID_SIZE);
-				updateFenceIfExist(x, y - PLACING_GRID_SIZE);
+				image_index = computeFenceIndex(x,y, object_index);
+				updateFenceIfExist(x + PLACING_GRID_SIZE, y, object_index);
+				updateFenceIfExist(x - PLACING_GRID_SIZE, y, object_index);
+				updateFenceIfExist(x, y + PLACING_GRID_SIZE, object_index);
+				updateFenceIfExist(x, y - PLACING_GRID_SIZE, object_index);
 			}
 		}
+		
+		if (placingInst.object_index == oStoneFence) {
+			// we just placed a stone fence
+			with (placingInst){
+				image_index = computeFenceIndex(x,y, object_index);
+				updateFenceIfExist(x + PLACING_GRID_SIZE, y, object_index);
+				updateFenceIfExist(x - PLACING_GRID_SIZE, y, object_index);
+				updateFenceIfExist(x, y + PLACING_GRID_SIZE, object_index);
+				updateFenceIfExist(x, y - PLACING_GRID_SIZE, object_index);
+			}
+		}
+		
 		event_user(1);
 	}
 }
