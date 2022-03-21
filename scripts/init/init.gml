@@ -23,6 +23,10 @@ function init(){
 		BLOCK_WOOD,
 		BLOCK_IRON,
 		
+		WOOD_FENCE,
+		STONE_FENCE,
+		
+		
 		STATUE,
 		WOODEN_CHEST,
 		WOODEN_CHEST_LARGE
@@ -56,9 +60,17 @@ function init(){
 		[ITEM.IRON, 4]
 	]);
 	
-	initItem(ITEM.STATUE, "Statue", sStatue, [
+	initItem(ITEM.STATUE, "Statue", sStatusI, [
 		[ITEM.STONE, 3]
 	], oPlaceableStatue);
+	
+	initItem(ITEM.WOOD_FENCE, "Wood Fence", sFenceW, [
+		[ITEM.WOOD, 1]
+	], oWoodFence);
+	
+	initItem(ITEM.STONE_FENCE, "Stone Fence", sFenceS, [
+		[ITEM.STONE, 1]
+	], oStoneFence);
 	
 	initItem(ITEM.WOODEN_CHEST, "Wooden Chest",sWoodenChest, [
 		[ITEM.WOOD, 3]
@@ -83,6 +95,10 @@ function init(){
 		"Buildings",
 		ITEM.BLOCK_WOOD,
 		ITEM.BLOCK_IRON,
+		
+		"Fences",
+		ITEM.WOOD_FENCE,
+		ITEM.STONE_FENCE,
 		
 		"Statues",
 		ITEM.STATUE,

@@ -31,7 +31,29 @@ if (placingMode && instance_exists(placingInst)) {
 	else placingInst.image_blend = c_white;
 	
 	//Place
-	if (!_colliding && mouse_check_button_pressed(mb_left)) {
+	if (!_colliding && mouse_check_button_pressed(mb_left)) {			
+		if (placingInst.object_index == oWoodFence) {
+			// we just placed a wood fence
+			with (placingInst){
+				image_index = computeFenceIndex(x,y, object_index);
+				updateFenceIfExist(x + PLACING_GRID_SIZE, y, object_index);
+				updateFenceIfExist(x - PLACING_GRID_SIZE, y, object_index);
+				updateFenceIfExist(x, y + PLACING_GRID_SIZE, object_index);
+				updateFenceIfExist(x, y - PLACING_GRID_SIZE, object_index);
+			}
+		}
+		
+		if (placingInst.object_index == oStoneFence) {
+			// we just placed a stone fence
+			with (placingInst){
+				image_index = computeFenceIndex(x,y, object_index);
+				updateFenceIfExist(x + PLACING_GRID_SIZE, y, object_index);
+				updateFenceIfExist(x - PLACING_GRID_SIZE, y, object_index);
+				updateFenceIfExist(x, y + PLACING_GRID_SIZE, object_index);
+				updateFenceIfExist(x, y - PLACING_GRID_SIZE, object_index);
+			}
+		}
+		
 		event_user(1);
 	}
 }

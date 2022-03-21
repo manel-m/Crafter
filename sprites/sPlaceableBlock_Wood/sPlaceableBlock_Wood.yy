@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "World",
-    "path": "folders/Sprites/World.yy",
+    "name": "Placeable",
+    "path": "folders/Sprites/World/Placeable.yy",
   },
   "resourceVersion": "1.0",
   "name": "sPlaceableBlock_Wood",

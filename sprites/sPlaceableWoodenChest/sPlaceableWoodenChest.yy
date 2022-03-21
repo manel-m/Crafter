@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "World",
-    "path": "folders/Sprites/World.yy",
+    "name": "Chest",
+    "path": "folders/Sprites/World/Placeable/Chest.yy",
   },
   "resourceVersion": "1.0",
   "name": "sPlaceableWoodenChest",
