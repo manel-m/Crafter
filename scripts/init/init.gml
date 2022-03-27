@@ -92,9 +92,11 @@ function init(){
 		ITEM.POTION,
 		ITEM.SYRUP,
 		
-		"Buildings",
+		"BLOCKS",
 		ITEM.BLOCK_WOOD,
 		ITEM.BLOCK_IRON,
+		
+		//BUILDINGS
 		
 		"Fences",
 		ITEM.WOOD_FENCE,

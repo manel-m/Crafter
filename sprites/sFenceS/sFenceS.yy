@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "World",
-    "path": "folders/Sprites/World.yy",
+    "name": "Icons",
+    "path": "folders/Sprites/World/Placeable/Icons.yy",
   },
   "resourceVersion": "1.0",
   "name": "sFenceS",
