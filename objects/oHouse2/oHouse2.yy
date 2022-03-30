@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sStoneFence",
-    "path": "sprites/sStoneFence/sStoneFence.yy",
+    "name": "sHouse2",
+    "path": "sprites/sHouse2/sHouse2.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,16 +25,15 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":1,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Fences",
-    "path": "folders/Objects/World/Placeable/Fences.yy",
+    "name": "Houses",
+    "path": "folders/Objects/World/Placeable/Houses.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oStoneFence",
+  "name": "oHouse2",
   "tags": [],
   "resourceType": "GMObject",
 }

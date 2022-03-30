@@ -129,8 +129,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Placeable",
-    "path": "folders/Sprites/World/Placeable.yy",
+    "name": "fences",
+    "path": "folders/Sprites/World/Placeable/fences.yy",
   },
   "resourceVersion": "1.0",
   "name": "sStoneFence",

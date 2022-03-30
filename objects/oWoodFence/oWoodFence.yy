@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Placeable",
-    "path": "folders/Objects/World/Placeable.yy",
+    "name": "Fences",
+    "path": "folders/Objects/World/Placeable/Fences.yy",
   },
   "resourceVersion": "1.0",
   "name": "oWoodFence",

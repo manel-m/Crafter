@@ -26,6 +26,10 @@ function init(){
 		WOOD_FENCE,
 		STONE_FENCE,
 		
+		HOUSE1,
+		HOUSE2,
+		HOUSE3,
+		
 		
 		STATUE,
 		WOODEN_CHEST,
@@ -72,6 +76,21 @@ function init(){
 		[ITEM.STONE, 1]
 	], oStoneFence);
 	
+	initItem(ITEM.HOUSE1, "Small House", sHouse1Icon, [
+		[ITEM.WOOD, 3]
+	], oHouse1);
+	
+	initItem(ITEM.HOUSE2, "Medium House", sHouse2Icon, [
+		[ITEM.WOOD, 3],
+		[ITEM.STONE, 2]
+	], oHouse2);
+	
+	initItem(ITEM.HOUSE3, "Large House", sHouse3Icon, [
+		[ITEM.WOOD, 2],
+		[ITEM.STONE, 3],
+		[ITEM.IRON,3]
+	], oHouse3);
+	
 	initItem(ITEM.WOODEN_CHEST, "Wooden Chest",sWoodenChest, [
 		[ITEM.WOOD, 3]
 	], oWoodenChest);
@@ -96,7 +115,10 @@ function init(){
 		ITEM.BLOCK_WOOD,
 		ITEM.BLOCK_IRON,
 		
-		//BUILDINGS
+		"BUILDINGS",
+		ITEM.HOUSE1,
+		ITEM.HOUSE2,
+		ITEM.HOUSE3,
 		
 		"Fences",
 		ITEM.WOOD_FENCE,

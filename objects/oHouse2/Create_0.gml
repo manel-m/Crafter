@@ -4,8 +4,12 @@
 // Inherit the parent event
 event_inherited();
 
-//Ressources
-res = [ITEM.APPLE, ITEM.ORANGE,ITEM.WOOD];
+//Ressources 
+//res =[ITEM.WOOD, ITEM.STONE];
+//resCount = 3;
 
-hp = 3;
-hpMax = hp;
+//hp = 6;
+//hpMax = hp;
+
+nonBreakable =true;
+
