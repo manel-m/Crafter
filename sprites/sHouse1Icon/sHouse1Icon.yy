@@ -7,10 +7,10 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 1,
-  "bbox_right": 6,
+  "bbox_left": 0,
+  "bbox_right": 7,
   "bbox_top": 0,
-  "bbox_bottom": 6,
+  "bbox_bottom": 7,
   "HTile": false,
   "VTile": false,
   "For3D": false,
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"98e2ebd4-53f2-4c3d-8173-470ab43bd29c","path":"sprites/sFenceW/sFenceW.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"98e2ebd4-53f2-4c3d-8173-470ab43bd29c","path":"sprites/sFenceW/sFenceW.yy",},"LayerId":{"name":"10aa3efa-c1c1-4a7c-a28f-2fe5e00dac0a","path":"sprites/sFenceW/sFenceW.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sFenceW","path":"sprites/sFenceW/sFenceW.yy",},"resourceVersion":"1.0","name":"98e2ebd4-53f2-4c3d-8173-470ab43bd29c","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fdf1ec42-a1b3-48b7-9157-abe2034d57eb","path":"sprites/sHouse1Icon/sHouse1Icon.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fdf1ec42-a1b3-48b7-9157-abe2034d57eb","path":"sprites/sHouse1Icon/sHouse1Icon.yy",},"LayerId":{"name":"50f34233-59c8-438f-9c9f-d5d14f06f0f2","path":"sprites/sHouse1Icon/sHouse1Icon.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sHouse1Icon","path":"sprites/sHouse1Icon/sHouse1Icon.yy",},"resourceVersion":"1.0","name":"fdf1ec42-a1b3-48b7-9157-abe2034d57eb","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sFenceW","path":"sprites/sFenceW/sFenceW.yy",},
+    "spriteId": {"name":"sHouse1Icon","path":"sprites/sHouse1Icon/sHouse1Icon.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c614e9cf-3c13-425b-a465-9671f97fba55","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"98e2ebd4-53f2-4c3d-8173-470ab43bd29c","path":"sprites/sFenceW/sFenceW.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"73159f43-c2fd-401f-8034-4139b2840fc2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fdf1ec42-a1b3-48b7-9157-abe2034d57eb","path":"sprites/sHouse1Icon/sHouse1Icon.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 4,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sFenceW","path":"sprites/sFenceW/sFenceW.yy",},
+    "parent": {"name":"sHouse1Icon","path":"sprites/sHouse1Icon/sHouse1Icon.yy",},
     "resourceVersion": "1.3",
-    "name": "sFenceW",
+    "name": "sHouse1Icon",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"10aa3efa-c1c1-4a7c-a28f-2fe5e00dac0a","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"50f34233-59c8-438f-9c9f-d5d14f06f0f2","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/World/Placeable/Icons.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sFenceW",
+  "name": "sHouse1Icon",
   "tags": [],
   "resourceType": "GMSprite",
 }

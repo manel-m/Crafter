@@ -16,7 +16,7 @@ with (_breakable){
 	var _dist = distance_to_object(oPlayer);
 	
 	//In range
-	if (_dist < other.breakDistance){
+	if (!nonBreakable && _dist < other.breakDistance){
 		// Set selector
 		other.selectorInst = id;
 		//click
