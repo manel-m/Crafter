@@ -78,6 +78,7 @@
     {"id":{"name":"inventory","path":"scripts/inventory/inventory.yy",},"order":2,},
     {"id":{"name":"sHouse3Icon","path":"sprites/sHouse3Icon/sHouse3Icon.yy",},"order":2,},
     {"id":{"name":"oChestParent","path":"objects/oChestParent/oChestParent.yy",},"order":0,},
+    {"id":{"name":"oRoadsCollision","path":"objects/oRoadsCollision/oRoadsCollision.yy",},"order":13,},
     {"id":{"name":"Juice","path":"scripts/Juice/Juice.yy",},"order":6,},
     {"id":{"name":"oEnemyParent","path":"objects/oEnemyParent/oEnemyParent.yy",},"order":0,},
     {"id":{"name":"oEnemy0","path":"objects/oEnemy0/oEnemy0.yy",},"order":1,},
@@ -88,6 +89,7 @@
     {"id":{"name":"oButtonInv","path":"objects/oButtonInv/oButtonInv.yy",},"order":1,},
     {"id":{"name":"sApple","path":"sprites/sApple/sApple.yy",},"order":14,},
     {"id":{"name":"sTrunk","path":"sprites/sTrunk/sTrunk.yy",},"order":11,},
+    {"id":{"name":"sCollision","path":"sprites/sCollision/sCollision.yy",},"order":17,},
     {"id":{"name":"sSunflower","path":"sprites/sSunflower/sSunflower.yy",},"order":17,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"sBlock_Iron","path":"sprites/sBlock_Iron/sBlock_Iron.yy",},"order":5,},
@@ -141,7 +143,6 @@
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
-    {"folderPath":"folders/Sprites/World/Tile Sets.yy","order":14,"resourceVersion":"1.0","name":"Tile Sets","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sounds.yy","order":3,"resourceVersion":"1.0","name":"Sounds","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Paths.yy","order":4,"resourceVersion":"1.0","name":"Paths","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Scripts.yy","order":5,"resourceVersion":"1.0","name":"Scripts","tags":[],"resourceType":"GMFolder",},

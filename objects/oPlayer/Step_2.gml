@@ -22,7 +22,7 @@ if (placingMode && instance_exists(placingInst)) {
 		y = round(mouse_y / PLACING_GRID_SIZE) * PLACING_GRID_SIZE;
 		
 		//Collision
-		_colliding = collision(x,y) || collision_entity(x,y);
+		_colliding = collision(x,y) || collision_entity(x,y) || collision_roads(x,y);
 		
 	}
 	
