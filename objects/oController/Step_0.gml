@@ -26,3 +26,4 @@ if (pause) {
 		y = ystart + other.cMenuScroll;
 	}
 }
+

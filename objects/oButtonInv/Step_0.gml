@@ -1,5 +1,11 @@
 /// @description 
 
+
+// add selector
+//if (hover){
+//	selectorInst = id;
+//}
+
 //use 
 if (hover && lclick) {
 	//Get array

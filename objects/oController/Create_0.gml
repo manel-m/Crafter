@@ -35,3 +35,5 @@ inv_add(ITEM.WOOD, 8);
 inv_add(ITEM.STONE,8);
 inv_add(ITEM.IRON,8);
 
+
+
