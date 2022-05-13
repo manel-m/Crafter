@@ -14,6 +14,16 @@ var _sizeY = 2;
 var _invX = _margin;
 var _invY = RES.HEIGHT -(_margin + _sep + _cellSize * _sizeY);
 
+//Create LightBox
+var _boxMargin = 5;
+var _box = instance_create_depth(_invX -_boxMargin, _invY-_boxMargin, 0, oLightBox);
+//Set properties 
+with (_box) {
+	width = _cellSize* _sizeX + _sep*(_sizeX-1) + _boxMargin*2;
+	height = _cellSize *_sizeY + _sep*(_sizeY-1) + _boxMargin*2;
+}
+	
+
 //Create buttons
 var _x= 0;
 var _y= 0;
