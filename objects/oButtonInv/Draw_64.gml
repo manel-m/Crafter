@@ -22,6 +22,10 @@ if (is_array(_arr)){
 	//Draw count 
 	var _count = _arr[1];
 	
+	draw_sprite_ext(sWhiteBox, 0 , x + 18, y-2, 1, 1, 0, c_white, _alpha );
+
+	
 	draw_set_font(ftUI);
-	draw_text(x + 2, y - 3, _count);
+	draw_set_color(c_black);
+	draw_text(x + 21, y-6 , _count);
 }

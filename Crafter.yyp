@@ -47,6 +47,7 @@
     {"id":{"name":"sWoodFence","path":"sprites/sWoodFence/sWoodFence.yy",},"order":1,},
     {"id":{"name":"rmInit","path":"rooms/rmInit/rmInit.yy",},"order":1,},
     {"id":{"name":"sBackgound","path":"sprites/sBackgound/sBackgound.yy",},"order":2,},
+    {"id":{"name":"sWhiteBox","path":"sprites/sWhiteBox/sWhiteBox.yy",},"order":5,},
     {"id":{"name":"sCarrotPlant","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"order":8,},
     {"id":{"name":"Fence","path":"scripts/Fence/Fence.yy",},"order":7,},
     {"id":{"name":"oPlaceableParent","path":"objects/oPlaceableParent/oPlaceableParent.yy",},"order":0,},
