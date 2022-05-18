@@ -69,7 +69,7 @@ var _titleH = 12;
 
 //Create LightBox for the crafting menu
 var _boxMargin = _x - 5;
-craftingLightBox = instance_create_depth(_boxMargin, _y, 0, oLightBox);
+craftingLightBox = instance_create_depth(_boxMargin, _y+ 2, 0, oLightBox);
 
 
 // Create crafting buttons
