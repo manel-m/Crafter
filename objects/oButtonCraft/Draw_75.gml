@@ -15,7 +15,10 @@ if (hover){
 	
 	//Draw background
 	draw_set_color(c_dkgray);
+	
 	draw_rectangle(_x, _y, _x + _cellSize * _recipeSize, _y + _cellSize, 0);
+	//draw_sprite_ext(sWhiteBox, 0 , _x, _y, (_cellSize * _recipeSize)/9 ,_cellSize/9, 0, c_white, 1 );
+
 	draw_set_color(c_white);
 	
 	//Loop and draw items

@@ -6,8 +6,9 @@
 
 //Crafting animation
 if (craftAnim > 0 ) {
-	draw_rectangle(x, y, x + width * craftAnim, y + height, 0);
-
+	draw_set_color(c_black);
+	draw_rectangle(x+3, y+3, x + width * craftAnim, (y + height) -4, 0);
+	draw_set_color(c_white);
 }
 
 //Properties
@@ -32,8 +33,9 @@ draw_sprite_ext(_spr,0,x + _margin + _sizeNew/2, y+ _margin + _sizeNew/2,
 // Draw name 
 var _name = global.itemName[item];
 draw_set_font(ftUI);
-
+//draw_set_color(c_black);
 draw_text(x+ _margin * 2 + _sizeNew, y + _margin - 2 , _name)
+//draw_set_color(c_white);
 
 
 
