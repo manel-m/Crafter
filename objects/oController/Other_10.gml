@@ -69,7 +69,7 @@ var _titleH = 12;
 
 //Create LightBox for the crafting menu
 var _boxMargin = _x - 5;
-craftingBox = instance_create_depth(_boxMargin, _y, 0, oLightBox);
+craftingLightBox = instance_create_depth(_boxMargin, _y, 0, oLightBox);
 
 
 // Create crafting buttons
@@ -98,7 +98,7 @@ for (var i = 0; i< _size; i ++) {
 }
 
 //Set properties 
-with (craftingBox) {
+with (craftingLightBox) {
 	width = _w + 10//_cellSize* _sizeX + _sep*(_sizeX-1) + _boxMargin*2;
 	height = (_y - _sep) + 0//_cellSize *_sizeY + _sep*(_sizeY-1) + _boxMargin*2;
 }

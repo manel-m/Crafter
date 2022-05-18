@@ -26,7 +26,7 @@ if (pause) {
 		y = ystart + other.cMenuScroll;
 	}
 	
-	with (craftingBox){
+	with (craftingLightBox){
 		y = ystart + other.cMenuScroll;
 	}
 	

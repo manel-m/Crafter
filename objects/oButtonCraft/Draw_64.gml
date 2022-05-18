@@ -2,11 +2,12 @@
 // You can write your code in this editor
 
 // Inherit the parent event
-event_inherited();
+//event_inherited();
 
 //Crafting animation
 if (craftAnim > 0 ) {
 	draw_rectangle(x, y, x + width * craftAnim, y + height, 0);
+
 }
 
 //Properties
@@ -16,6 +17,11 @@ var _margin = 4;
 var _size = 8;
 var _sizeNew = height - _margin * 2;
 var _scale = _sizeNew / _size;
+
+
+//Draw button
+var _alpha = hover ? 0.5 : 1.0;
+draw_sprite_ext(sDarkBox, 0 , x, y, width/9, height/9, 0, c_white, _alpha );
 
 
 //Draw item 

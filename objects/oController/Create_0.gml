@@ -26,7 +26,7 @@ pauseSurf= -1;
 chestID = noone;
 movingArray = -1;
 
-craftingBox = noone;
+craftingLightBox = noone;
 
 //Crafting menu
 cMenuScroll = 0;
