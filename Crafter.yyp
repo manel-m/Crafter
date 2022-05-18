@@ -26,6 +26,7 @@
     {"id":{"name":"sBeetroot","path":"sprites/sBeetroot/sBeetroot.yy",},"order":12,},
     {"id":{"name":"oNPCParent","path":"objects/oNPCParent/oNPCParent.yy",},"order":7,},
     {"id":{"name":"sHouse2Icon","path":"sprites/sHouse2Icon/sHouse2Icon.yy",},"order":1,},
+    {"id":{"name":"sStatueOld","path":"sprites/sStatueOld/sStatueOld.yy",},"order":19,},
     {"id":{"name":"oCollision","path":"objects/oCollision/oCollision.yy",},"order":8,},
     {"id":{"name":"sWoodOld","path":"sprites/sWoodOld/sWoodOld.yy",},"order":2,},
     {"id":{"name":"oPlaceableStatue","path":"objects/oPlaceableStatue/oPlaceableStatue.yy",},"order":2,},

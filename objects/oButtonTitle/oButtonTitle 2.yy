@@ -1,13 +1,13 @@
 {
-  "spriteId": {
-    "name": "sLightBox",
-    "path": "sprites/sLightBox/sLightBox.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oButtonParent",
+    "path": "objects/oButtonParent/oButtonParent.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -31,7 +31,7 @@
     "path": "folders/Objects/GUI.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oLightBox",
+  "name": "oButtonTitle",
   "tags": [],
   "resourceType": "GMObject",
 }

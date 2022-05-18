@@ -64,7 +64,7 @@ function init(){
 		[ITEM.IRON, 4]
 	]);
 	
-	initItem(ITEM.STATUE, "Statue", sStatusI, [
+	initItem(ITEM.STATUE, "Statue", sStatueOld, [
 		[ITEM.STONE, 3]
 	], oPlaceableStatue);
 	

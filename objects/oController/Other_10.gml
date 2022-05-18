@@ -14,16 +14,16 @@ var _sizeY = 2;
 var _invX = _margin;
 var _invY = RES.HEIGHT -(_margin + _sep + _cellSize * _sizeY);
 
-//Create LightBox
+//Create LightBox for the inventory
 var _boxMargin = 5;
-var _box = instance_create_depth(_invX -_boxMargin, _invY-_boxMargin, 0, oLightBox);
+var _InventoryBox = instance_create_depth(_invX -_boxMargin, _invY-_boxMargin, 0, oLightBox);
 //Set properties 
-with (_box) {
+with (_InventoryBox) {
 	width = _cellSize* _sizeX + _sep*(_sizeX-1) + _boxMargin*2;
 	height = _cellSize *_sizeY + _sep*(_sizeY-1) + _boxMargin*2;
 }
-	
 
+	
 //Create buttons
 var _x= 0;
 var _y= 0;
@@ -66,6 +66,12 @@ var _y = _sep;
 
 var _titleH = 12;
 
+
+//Create LightBox for the crafting menu
+var _boxMargin = _x - 5;
+craftingLightBox = instance_create_depth(_boxMargin, _y+ 2, 0, oLightBox);
+
+
 // Create crafting buttons
 var _arr = global.craftingMenu;
 var _size = array_length(_arr);
@@ -77,7 +83,6 @@ for (var i = 0; i< _size; i ++) {
 	
 	if (is_string(_item)) {
 		// create button title
-		show_debug_message("is string test TRUE")
 		createButtonTitle(_x, _y, _w, _titleH, _item);
 		
 		_y += (_titleH + _sep);
@@ -90,6 +95,12 @@ for (var i = 0; i< _size; i ++) {
 		_y += (_h + _sep);
 	
 	}
+}
+
+//Set properties 
+with (craftingLightBox) {
+	width = _w + 10//_cellSize* _sizeX + _sep*(_sizeX-1) + _boxMargin*2;
+	height = (_y - _sep) + 0//_cellSize *_sizeY + _sep*(_sizeY-1) + _boxMargin*2;
 }
 
 
