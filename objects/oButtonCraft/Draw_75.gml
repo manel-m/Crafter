@@ -16,8 +16,8 @@ if (hover){
 	//Draw background
 	draw_set_color(c_dkgray);
 	
-	draw_rectangle(_x, _y, _x + _cellSize * _recipeSize, _y + _cellSize, 0);
-	//draw_sprite_ext(sWhiteBox, 0 , _x, _y, (_cellSize * _recipeSize)/9 ,_cellSize/9, 0, c_white, 1 );
+	//draw_rectangle(_x, _y, _x + _cellSize * _recipeSize, _y + _cellSize, 0);
+	draw_sprite_ext(sWhiteBox, 0 , _x, _y, (_cellSize * _recipeSize +5)/9,(_cellSize + 3 )/9 , 0, c_white, 1 );
 
 	draw_set_color(c_white);
 	
@@ -39,6 +39,9 @@ if (hover){
 		
 		//Draw count
 		draw_set_font(ftUI);
-		draw_text(_dx + _cellSize * 0.75, _dy + _cellSize * 0.3, _count);
+		draw_set_color(c_black);
+		draw_text(_dx + 2 + _cellSize * 0.75, _dy + 1+ _cellSize * 0.3, _count);
+		draw_set_color(c_white);
+
 	}
 }
