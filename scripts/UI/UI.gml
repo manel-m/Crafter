@@ -19,7 +19,6 @@ function createButtonCraft(_x, _y, _w, _h, _item){
 
 function createButtonTitle(_x, _y, _w, _h, _title){
 	
-	show_debug_message("create button title fonction called")
 	//Create button 
 	var _inst = instance_create_depth(_x, _y, 0, oButtonTitle);
 	

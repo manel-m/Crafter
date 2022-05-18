@@ -25,5 +25,11 @@ if (pause) {
 	with (oButtonTitle){
 		y = ystart + other.cMenuScroll;
 	}
+	
+	with (craftingBox){
+		y = ystart + other.cMenuScroll;
+	}
+	
+	
 }
 
