@@ -38,6 +38,13 @@ with (_breakable){
 	}
 }
 
+if (instance_exists(selectorInst)) {
+	cursor_sprite = sPickaxe;
+
+} else {
+	cursor_sprite = sCursor;
+}
+
 
 //Get enemy instance at mouse position
 var _enemy = instance_position(mouse_x, mouse_y, oEnemyParent);

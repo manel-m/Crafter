@@ -11,13 +11,14 @@ if (instance_exists(selectorInst)){
 		
 		
 		//Draw white box with the pickaxe inside it 
-		draw_sprite_ext(sItemdisc, 0 , bbox_right, bbox_bottom + 15 , 1,1,0, c_white, 1 );
-		draw_sprite_ext(sPickaxe, 0 , bbox_right-5, bbox_bottom +20 , 1,1,0, c_white, 1 );
-		draw_sprite_ext(sCursor, 0 , bbox_right -5, bbox_bottom+ 3 , 0.8,0.8,0, c_white, 1 );
+		//draw_sprite_ext(sItemdisc, 0 , bbox_right, bbox_bottom + 15 , 1,1,0, c_white, 1 );
+		//draw_sprite_ext(sPickaxe, 0 , bbox_right-5, bbox_bottom +20 , 1,1,0, c_white, 1 );
+		//draw_sprite_ext(sCursor, 0 , bbox_right -5, bbox_bottom+ 3 , 0.8,0.8,0, c_white, 1 );
 
 
 
 	}
+	
 	
 	
 
