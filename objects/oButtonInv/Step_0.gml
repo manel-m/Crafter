@@ -10,13 +10,13 @@
 if (hover && lclick) {
 	//Get array
 	var _arr = oController.invList[| slotID];
+		
+	var _used = false;
 	
 	if (is_array(_arr)){
 		//Vars
 		var _item = _arr[0];
 		var _count = _arr[1];
-		
-		var _used = false;
 		
 		//Effects
 		instance_activate_object(oPlayer);

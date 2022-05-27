@@ -17,6 +17,19 @@ function createButtonCraft(_x, _y, _w, _h, _item){
 
 }
 
+//function createToolButton(_x, _y, _toolSprite) {
+	
+//	//Create button 
+//	var _inst = instance_create_depth(_x, _y, 0, oButtonTool);
+	
+//	with (_inst) {
+//		toolSprite = _toolSprite;
+	
+//	}
+	
+//	return _inst
+//}
+
 function createButtonTitle(_x, _y, _w, _h, _title){
 	
 	//Create button 
