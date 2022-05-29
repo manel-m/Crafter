@@ -8,3 +8,5 @@ width = sprite_width;
 height = sprite_height;
 
 toolSetOpen = false
+
+toolSprite = sPickaxeInv;

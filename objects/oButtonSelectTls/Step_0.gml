@@ -2,9 +2,7 @@
 // You can write your code in this editor
 if (hover && lclick) {
 	if (toolSetOpen){
-		show_debug_message("closing toolset");
-		instance_destroy(oToolsList);
-		toolSetOpen = false;
+		event_user(0);
 		
 	} else {
 		show_debug_message("opening toolset");
