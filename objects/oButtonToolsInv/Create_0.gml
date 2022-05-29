@@ -6,4 +6,7 @@ event_inherited();
 
 toolType = noone;
 
+//Selector 
 
+selectorFrame = 0;
+selectorFrameNumber = sprite_get_number(sSelector);
