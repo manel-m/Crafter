@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 12,
+  "bbox_right": 13,
   "bbox_top": 0,
-  "bbox_bottom": 12,
+  "bbox_bottom": 13,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 13,
-  "height": 13,
+  "width": 14,
+  "height": 14,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"444afa97-4953-4e99-bc19-2d6997d239c5","path":"sprites/sPickaxe/sPickaxe.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"444afa97-4953-4e99-bc19-2d6997d239c5","path":"sprites/sPickaxe/sPickaxe.yy",},"LayerId":{"name":"59ed82b5-2e8c-4420-8fc0-a3ceea73d60d","path":"sprites/sPickaxe/sPickaxe.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPickaxe","path":"sprites/sPickaxe/sPickaxe.yy",},"resourceVersion":"1.0","name":"444afa97-4953-4e99-bc19-2d6997d239c5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"0c3dbdb0-2071-4e0c-bbe9-5643dc2efd0f","path":"sprites/sSword/sSword.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"0c3dbdb0-2071-4e0c-bbe9-5643dc2efd0f","path":"sprites/sSword/sSword.yy",},"LayerId":{"name":"9880e983-d686-4814-814c-00980dce30fa","path":"sprites/sSword/sSword.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sSword","path":"sprites/sSword/sSword.yy",},"resourceVersion":"1.0","name":"0c3dbdb0-2071-4e0c-bbe9-5643dc2efd0f","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sPickaxe","path":"sprites/sPickaxe/sPickaxe.yy",},
+    "spriteId": {"name":"sSword","path":"sprites/sSword/sSword.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"3b5b96a3-b245-41fd-9d7f-84e4eb279df9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"444afa97-4953-4e99-bc19-2d6997d239c5","path":"sprites/sPickaxe/sPickaxe.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"bf2576a3-54f3-40d1-a142-5bdedb7d4c2d","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0c3dbdb0-2071-4e0c-bbe9-5643dc2efd0f","path":"sprites/sSword/sSword.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -55,17 +55,17 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 0,
-    "yorigin": 13,
+    "yorigin": 14,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sPickaxe","path":"sprites/sPickaxe/sPickaxe.yy",},
+    "parent": {"name":"sSword","path":"sprites/sSword/sSword.yy",},
     "resourceVersion": "1.3",
-    "name": "sPickaxe",
+    "name": "sSword",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"59ed82b5-2e8c-4420-8fc0-a3ceea73d60d","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9880e983-d686-4814-814c-00980dce30fa","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Tools.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sPickaxe",
+  "name": "sSword",
   "tags": [],
   "resourceType": "GMSprite",
 }

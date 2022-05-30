@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sPickaxe",
-    "path": "sprites/sPickaxe/sPickaxe.yy",
+    "name": "sAxe",
+    "path": "sprites/sAxe/sAxe.yy",
   },
   "solid": false,
   "visible": true,
@@ -31,7 +31,7 @@
     "path": "folders/Objects/Tools Objs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oPickaxe",
+  "name": "oAxe",
   "tags": [],
   "resourceType": "GMObject",
 }

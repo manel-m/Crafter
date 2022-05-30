@@ -8,13 +8,13 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 12,
+  "bbox_right": 14,
   "bbox_top": 0,
   "bbox_bottom": 12,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 13,
+  "width": 15,
   "height": 13,
   "textureGroupId": {
     "name": "Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"444afa97-4953-4e99-bc19-2d6997d239c5","path":"sprites/sPickaxe/sPickaxe.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"444afa97-4953-4e99-bc19-2d6997d239c5","path":"sprites/sPickaxe/sPickaxe.yy",},"LayerId":{"name":"59ed82b5-2e8c-4420-8fc0-a3ceea73d60d","path":"sprites/sPickaxe/sPickaxe.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPickaxe","path":"sprites/sPickaxe/sPickaxe.yy",},"resourceVersion":"1.0","name":"444afa97-4953-4e99-bc19-2d6997d239c5","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"6217e7c0-25fa-4512-97e9-60db8cb42cd7","path":"sprites/sAxe/sAxe.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"6217e7c0-25fa-4512-97e9-60db8cb42cd7","path":"sprites/sAxe/sAxe.yy",},"LayerId":{"name":"ec0debb5-e4f4-45e5-89fa-77c2c5d9d3cb","path":"sprites/sAxe/sAxe.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sAxe","path":"sprites/sAxe/sAxe.yy",},"resourceVersion":"1.0","name":"6217e7c0-25fa-4512-97e9-60db8cb42cd7","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sPickaxe","path":"sprites/sPickaxe/sPickaxe.yy",},
+    "spriteId": {"name":"sAxe","path":"sprites/sAxe/sAxe.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"3b5b96a3-b245-41fd-9d7f-84e4eb279df9","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"444afa97-4953-4e99-bc19-2d6997d239c5","path":"sprites/sPickaxe/sPickaxe.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"71d346f6-71b7-4475-a57d-76358f907452","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6217e7c0-25fa-4512-97e9-60db8cb42cd7","path":"sprites/sAxe/sAxe.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 13,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sPickaxe","path":"sprites/sPickaxe/sPickaxe.yy",},
+    "parent": {"name":"sAxe","path":"sprites/sAxe/sAxe.yy",},
     "resourceVersion": "1.3",
-    "name": "sPickaxe",
+    "name": "sAxe",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"59ed82b5-2e8c-4420-8fc0-a3ceea73d60d","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ec0debb5-e4f4-45e5-89fa-77c2c5d9d3cb","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/Tools.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sPickaxe",
+  "name": "sAxe",
   "tags": [],
   "resourceType": "GMSprite",
 }

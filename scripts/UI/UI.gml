@@ -17,6 +17,19 @@ function createButtonCraft(_x, _y, _w, _h, _item){
 
 }
 
+//function createToolButton(_x, _y, _toolSprite) {
+	
+//	//Create button 
+//	var _inst = instance_create_depth(_x, _y, 0, oButtonTool);
+	
+//	with (_inst) {
+//		toolSprite = _toolSprite;
+	
+//	}
+	
+//	return _inst
+//}
+
 function createButtonTitle(_x, _y, _w, _h, _title){
 	
 	//Create button 
@@ -50,6 +63,19 @@ function createButtonMoveable(_x, _y, _w, _h, _list, _slot) {
 	}
 	
 	return _inst
+}
+
+function addSelector () {
+	//Draw selector in all four corners 
+	draw_sprite_ext(sSelector, selectorFrame, x, y, 1, 1, 0, -1,1 );
+	draw_sprite_ext(sSelector, selectorFrame, x+ width, y, 1, 1,-90, -1,1 );
+	draw_sprite_ext(sSelector, selectorFrame, x+ width, y+height, 1, 1, 180, -1,1 );
+	draw_sprite_ext(sSelector, selectorFrame, x, y+height, 1, 1, 90, -1,1 );
+
+	//Animation
+	selectorFrame +=0.10;
+	if (selectorFrame >= selectorFrameNumber) selectorFrame -= selectorFrameNumber;
+
 }
 
 

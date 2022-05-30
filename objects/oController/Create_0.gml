@@ -6,8 +6,8 @@ enum RES {
 	SCALE = 4
 }
 
-cursor_sprite = sCursor;
-window_set_cursor(cr_none);
+//cursor_sprite = sCursor;
+//window_set_cursor(cr_none);
 
 // Create camera 
 var _camera = camera_create_view(0,0,RES.WIDTH,RES.HEIGHT, 0, oPlayer, -1,-1,RES.WIDTH/2, RES.HEIGHT/2);
