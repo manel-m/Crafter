@@ -6,4 +6,4 @@
 //draw_sprite_ext(sButtonSelectTls, 0 , _x, _y, 1, 1, 0, c_white, 1 );
 
 draw_self()
-draw_sprite(toolSprite,0,x,y);
+draw_sprite(toolSprite,0,x+ width/2,y + height/2);

@@ -38,12 +38,12 @@ with (_breakable){
 	}
 }
 
-if (instance_exists(selectorInst)) {
-	cursor_sprite = sPickaxe;
+//if (instance_exists(selectorInst)) {
+//	cursor_sprite = sPickaxe;
 
-} else {
-	cursor_sprite = sCursor;
-}
+//} else {
+//	cursor_sprite = sCursor;
+//}
 
 
 //Get enemy instance at mouse position

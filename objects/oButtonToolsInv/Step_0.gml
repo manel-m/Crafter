@@ -4,10 +4,50 @@
 
 
 if (hover && lclick) {
-	with (oPlayer) {
-		heldItem = instance_create_layer(x,y,"Instances",oButtonToolsInv.toolType); 
-		show_debug_message("sprite selected");
+	var _toolObject = noone;
+	
+	//if (toolType == sShovelInv) {
+	//	_toolObject = oShovel;
+	//} else {
+	//	_toolObject = oPickaxe;
+	//}
+	
+	switch (toolType) {
+		case sShovelInv:
+			_toolObject = oShovel;
+		break;
 		
+		case sHammerInv:
+			_toolObject = oHammer;
+		break;
+		
+		case sSwordInv:
+			_toolObject = oSword;
+		break;
+		
+		case sAxeInv:
+			_toolObject = oAxe;
+		break;
+		
+		case sWaterInv:
+			_toolObject = oWater;
+		break;
+		
+		default:
+			_toolObject = oPickaxe;	
+	}
+	
+	
+	
+	
+	
+	
+	
+
+	with (oPlayer) {
+		instance_destroy(heldItem);
+		heldItem = instance_create_layer(x,y,"Instances",_toolObject); 
+		show_debug_message("sprite selected");
 	}
 	
 	with (oButtonSelectTls) {

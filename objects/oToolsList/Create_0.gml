@@ -10,7 +10,7 @@ var _sizeX = 6;
 var _sizeY = 1;
 
 //Coordinates
-var _invX = _margin+ 24;
+var _invX = _margin+ 25;
 var _invY = RES.HEIGHT -(_margin + _sep + _cellSize * _sizeY);
 
 //Create LightBox for the inventory
@@ -22,7 +22,7 @@ with (invBox) {
 	height = _cellSize *_sizeY + _sep*(_sizeY-1) + _boxMargin*2;
 }
 
-var _toolList = [sPickaxeInv,sShovelInv,sHammerInv,sSwordInv,sAxeInv,sWaterInv];
+var _toolList = [sPickaxeInv,sShovelInv, sHammerInv,sSwordInv,sAxeInv,sWaterInv];
 
 for (var i = 0; i < array_length(_toolList); i++) {
 	var _inst = instance_create_depth(_invX, _invY+2, 0, oButtonToolsInv);
