@@ -6,12 +6,6 @@
 if (hover && lclick) {
 	var _toolObject = noone;
 	
-	//if (toolType == sShovelInv) {
-	//	_toolObject = oShovel;
-	//} else {
-	//	_toolObject = oPickaxe;
-	//}
-	
 	switch (toolType) {
 		case sShovelInv:
 			_toolObject = oShovel;
@@ -33,15 +27,13 @@ if (hover && lclick) {
 			_toolObject = oWater;
 		break;
 		
+		case sPlantInv:
+			_toolObject = oPlant;
+		break;
+		
 		default:
 			_toolObject = oPickaxe;	
 	}
-	
-	
-	
-	
-	
-	
 	
 
 	with (oPlayer) {

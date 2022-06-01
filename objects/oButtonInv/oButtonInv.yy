@@ -31,8 +31,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "GUI",
-    "path": "folders/Objects/GUI.yy",
+    "name": "Inv & craft",
+    "path": "folders/Objects/GUI/Inv & craft.yy",
   },
   "resourceVersion": "1.0",
   "name": "oButtonInv",
