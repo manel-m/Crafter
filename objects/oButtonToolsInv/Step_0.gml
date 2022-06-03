@@ -35,6 +35,16 @@ if (hover && lclick) {
 			_toolObject = oPickaxe;	
 	}
 	
+	with (oButtonSelectSeeds) {
+		visible = (_toolObject == oPlant);
+	}
+	//with (oButtonSelectSeeds) {
+	//	if (_toolObject == oPlant) {
+	//		visible = true;
+	//	} else {
+	//		visible = false;
+	//	}
+	//}
 
 	with (oPlayer) {
 		instance_destroy(heldItem);
