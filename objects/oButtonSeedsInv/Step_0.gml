@@ -32,7 +32,24 @@ if (hover && lclick) {
 	
 	with (oButtonSelectSeeds) {
 	// change tool inside the button
-		seedSprite = other.seedType;
+		switch (other.seedType) {
+			case sCarrotInv:
+				seedSprite = sCarrot;
+			break;
+		
+			case sPotatoInv:
+				seedSprite = sPotato;
+			break;
+		
+			case sSunflowerInv:
+				seedSprite = sSunflower;
+			break;
+		
+			default:
+				seedSprite = sCarrot;
+		}
+	
+		//seedSprite = other.seedType;
 		event_user(0);
 	}
 	

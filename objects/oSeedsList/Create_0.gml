@@ -14,7 +14,7 @@ var _sizeY = 1;
 
 //Coordinates
 var _invX = _margin+ 25;
-var _invY = RES.HEIGHT -(_margin + _sep + _cellSize * _sizeY);
+var _invY = RES.HEIGHT -(_margin + _sep + _cellSize * _sizeY)- 25;
 
 //Create LightBox for the inventory
 var _boxMargin = 4;
