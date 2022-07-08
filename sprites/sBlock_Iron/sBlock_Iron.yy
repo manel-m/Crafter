@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sBlock_Iron","path":"sprites/sBlock_Iron/sBlock_Iron.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sBlock_Iron",
     "tags": [],
     "resourceType": "GMSequence",

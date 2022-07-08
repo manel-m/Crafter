@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sButtonE","path":"sprites/sButtonE/sButtonE.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sButtonE",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sRockOld","path":"sprites/sRockOld/sRockOld.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sRockOld",
     "tags": [],
     "resourceType": "GMSequence",

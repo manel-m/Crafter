@@ -71,7 +71,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sEnemy0","path":"sprites/sEnemy0/sEnemy0.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sEnemy0",
     "tags": [],
     "resourceType": "GMSequence",

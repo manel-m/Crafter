@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sIronOre","path":"sprites/sIronOre/sIronOre.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sIronOre",
     "tags": [],
     "resourceType": "GMSequence",

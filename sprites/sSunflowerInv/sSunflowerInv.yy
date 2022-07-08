@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sSunflowerInv","path":"sprites/sSunflowerInv/sSunflowerInv.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sSunflowerInv",
     "tags": [],
     "resourceType": "GMSequence",

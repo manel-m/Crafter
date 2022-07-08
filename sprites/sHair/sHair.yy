@@ -91,7 +91,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sHair","path":"sprites/sHair/sHair.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sHair",
     "tags": [],
     "resourceType": "GMSequence",

@@ -119,7 +119,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sStoneFence","path":"sprites/sStoneFence/sStoneFence.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sStoneFence",
     "tags": [],
     "resourceType": "GMSequence",

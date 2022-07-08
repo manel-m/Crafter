@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sHammerInv","path":"sprites/sHammerInv/sHammerInv.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sHammerInv",
     "tags": [],
     "resourceType": "GMSequence",

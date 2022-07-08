@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sBlock_Wood","path":"sprites/sBlock_Wood/sBlock_Wood.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sBlock_Wood",
     "tags": [],
     "resourceType": "GMSequence",

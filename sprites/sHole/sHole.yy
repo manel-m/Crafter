@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sHole","path":"sprites/sHole/sHole.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sHole",
     "tags": [],
     "resourceType": "GMSequence",

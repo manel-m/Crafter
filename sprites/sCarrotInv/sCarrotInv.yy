@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sCarrotInv","path":"sprites/sCarrotInv/sCarrotInv.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sCarrotInv",
     "tags": [],
     "resourceType": "GMSequence",

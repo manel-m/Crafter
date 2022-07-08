@@ -119,7 +119,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sWoodFence","path":"sprites/sWoodFence/sWoodFence.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sWoodFence",
     "tags": [],
     "resourceType": "GMSequence",

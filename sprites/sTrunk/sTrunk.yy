@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sTrunk","path":"sprites/sTrunk/sTrunk.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sTrunk",
     "tags": [],
     "resourceType": "GMSequence",

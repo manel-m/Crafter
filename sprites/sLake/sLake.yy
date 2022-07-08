@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sLake","path":"sprites/sLake/sLake.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sLake",
     "tags": [],
     "resourceType": "GMSequence",

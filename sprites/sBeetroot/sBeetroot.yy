@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sBeetroot","path":"sprites/sBeetroot/sBeetroot.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sBeetroot",
     "tags": [],
     "resourceType": "GMSequence",

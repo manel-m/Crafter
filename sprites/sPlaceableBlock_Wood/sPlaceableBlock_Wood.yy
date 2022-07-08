@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlaceableBlock_Wood","path":"sprites/sPlaceableBlock_Wood/sPlaceableBlock_Wood.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPlaceableBlock_Wood",
     "tags": [],
     "resourceType": "GMSequence",

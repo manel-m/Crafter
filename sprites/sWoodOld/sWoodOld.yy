@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sWoodOld","path":"sprites/sWoodOld/sWoodOld.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sWoodOld",
     "tags": [],
     "resourceType": "GMSequence",

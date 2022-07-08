@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sSyrup","path":"sprites/sSyrup/sSyrup.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sSyrup",
     "tags": [],
     "resourceType": "GMSequence",

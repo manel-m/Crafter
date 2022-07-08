@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sApple","path":"sprites/sApple/sApple.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sApple",
     "tags": [],
     "resourceType": "GMSequence",

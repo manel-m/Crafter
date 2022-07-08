@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPickaxeInv","path":"sprites/sPickaxeInv/sPickaxeInv.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPickaxeInv",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sWoodenChestLarge","path":"sprites/sWoodenChestLarge/sWoodenChestLarge.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sWoodenChestLarge",
     "tags": [],
     "resourceType": "GMSequence",

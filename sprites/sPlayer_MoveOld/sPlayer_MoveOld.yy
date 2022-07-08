@@ -87,7 +87,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlayer_MoveOld","path":"sprites/sPlayer_MoveOld/sPlayer_MoveOld.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPlayer_MoveOld",
     "tags": [],
     "resourceType": "GMSequence",
