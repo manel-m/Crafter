@@ -16,7 +16,7 @@ var _sizeY = 1;
 var _invX = _margin+ 25;
 var _invY = RES.HEIGHT -(_margin + _sep + _cellSize * _sizeY)- 25;
 
-//Create LightBox for the inventory
+////Create LightBox for the inventory
 var _boxMargin = 4;
 invBox = instance_create_depth(_invX -_boxMargin, _invY-_boxMargin, 0, oLightBox);
 //Set properties 
