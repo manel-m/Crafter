@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sStatueOld","path":"sprites/sStatueOld/sStatueOld.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sStatueOld",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sShovelInv","path":"sprites/sShovelInv/sShovelInv.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sShovelInv",
     "tags": [],
     "resourceType": "GMSequence",

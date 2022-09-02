@@ -91,7 +91,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlayer_Idle","path":"sprites/sPlayer_Idle/sPlayer_Idle.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPlayer_Idle",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sOrangeOld","path":"sprites/sOrangeOld/sOrangeOld.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sOrangeOld",
     "tags": [],
     "resourceType": "GMSequence",

@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sButtonSelectTls","path":"sprites/sButtonSelectTls/sButtonSelectTls.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sButtonSelectTls",
     "tags": [],
     "resourceType": "GMSequence",

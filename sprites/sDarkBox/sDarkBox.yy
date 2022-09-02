@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sDarkBox","path":"sprites/sDarkBox/sDarkBox.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sDarkBox",
     "tags": [],
     "resourceType": "GMSequence",

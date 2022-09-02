@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sHouse3Icon","path":"sprites/sHouse3Icon/sHouse3Icon.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sHouse3Icon",
     "tags": [],
     "resourceType": "GMSequence",

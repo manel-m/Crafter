@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPotatoPlant","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPotatoPlant",
     "tags": [],
     "resourceType": "GMSequence",

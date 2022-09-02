@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sPlaceableStatue","path":"sprites/sPlaceableStatue/sPlaceableStatue.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sPlaceableStatue",
     "tags": [],
     "resourceType": "GMSequence",

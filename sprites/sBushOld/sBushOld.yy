@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sBushOld","path":"sprites/sBushOld/sBushOld.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sBushOld",
     "tags": [],
     "resourceType": "GMSequence",

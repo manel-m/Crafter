@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sStone","path":"sprites/sStone/sStone.yy",},
-    "resourceVersion": "1.3",
+    "resourceVersion": "1.4",
     "name": "sStone",
     "tags": [],
     "resourceType": "GMSequence",

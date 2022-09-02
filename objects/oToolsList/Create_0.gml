@@ -1,12 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
+
+var _toolList = [sPickaxeInv,sShovelInv, sHammerInv,sSwordInv,sAxeInv,sWaterInv, sPlantInv];
+
 //Dimensions
 var _margin = 5;
 var _sep = 2;
 var _cellSize = 24;
 
 //Inventory items 
-var _sizeX = 6;
+var _sizeX = array_length(_toolList);
 var _sizeY = 1;
 
 //Coordinates
@@ -22,7 +25,6 @@ with (invBox) {
 	height = _cellSize *_sizeY + _sep*(_sizeY-1) + _boxMargin*2;
 }
 
-var _toolList = [sPickaxeInv,sShovelInv, sHammerInv,sSwordInv,sAxeInv,sWaterInv];
 
 for (var i = 0; i < array_length(_toolList); i++) {
 	var _inst = instance_create_depth(_invX, _invY+2, 0, oButtonToolsInv);
