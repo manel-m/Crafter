@@ -19,6 +19,10 @@ if (hover && lclick) {
 			_seedObject = oPlant;
 		break;
 		
+		case sBeetInv:
+			_seedObject = oPlant;
+		break;
+		
 		default:
 			_seedObject = oPlant;	
 	}
@@ -43,6 +47,10 @@ if (hover && lclick) {
 		
 			case sSunflowerInv:
 				seedSprite = sSunflower;
+			break;
+			
+			case sBeetInv:
+				seedSprite = sBeetroot;
 			break;
 		
 			default:
