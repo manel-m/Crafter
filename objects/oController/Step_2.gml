@@ -8,7 +8,7 @@ if (_playerExists) _heldItem = oPlayer.heldItem;
 if (_playerExists) _hair = oPlayer.hair;
 // depth
 with (all){
-	if (!object_is_ancestor(object_index, oGUI)) {
+	if (!object_is_ancestor(object_index, oGUI) && object_index != oDirt) {
 		depth = -bbox_bottom;
 	
 		//held item

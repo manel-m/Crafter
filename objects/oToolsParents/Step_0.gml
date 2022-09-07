@@ -8,6 +8,7 @@ image_angle = rotation * oPlayer.image_xscale + 45;
 // Get input 
 var _mousePress = mouse_check_button(mb_left);
 
+#region breakable
 //Get breakable instance at mouse position
 var _breakable = instance_position(mouse_x, mouse_y, oBreakableParent);
 
@@ -37,6 +38,7 @@ with (_breakable){
 		}
 	}
 }
+#endregion
 
 //if (instance_exists(selectorInst)) {
 //	cursor_sprite = sPickaxe;
@@ -45,7 +47,7 @@ with (_breakable){
 //	cursor_sprite = sCursor;
 //}
 
-
+#region enemy
 //Get enemy instance at mouse position
 var _enemy = instance_position(mouse_x, mouse_y, oEnemyParent);
 
@@ -72,6 +74,9 @@ with (_enemy){
 		}
 	}
 }
+#endregion
+
+// handle dirt
 
 //Cooldown 
 if (cooldown > 0) cooldown --;
