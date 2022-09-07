@@ -17,7 +17,7 @@ with (_breakable){
 	var _dist = distance_to_object(oPlayer);
 	
 	//In range
-	if (!nonBreakable && _dist < other.breakDistance){
+	if (!nonBreakable && _dist < other.breakDistance && oPlayer.heldItem.object_index != oShovel){
 		// Set selector
 		other.selectorInst = id;
 		//click
@@ -76,7 +76,44 @@ with (_enemy){
 }
 #endregion
 
+
 // handle dirt
+#region farmPlot
+//Get dirt instance at mouse position
+var _dirt = instance_position(mouse_x, mouse_y, oDirt);
+
+with (_dirt){
+	//Get distance 
+	var _dist = distance_to_object(oPlayer);
+	//In range
+	if (oPlayer.heldItem.object_index == oShovel && _dist < other.breakDistance){
+		// Set selector
+		other.selectorInst = id;
+		
+		//click
+		if(other.cooldown == 0 && _mousePress){
+			//Reduce hp
+			//hp --;
+			
+			//Set rotation
+			other.rotation = -80;
+			
+			//Set cooldown
+			other.cooldown = 20;
+			
+			//change soil assets
+			//instance_create_layer(x,y, "Instances", oNewHole);
+			
+			//Juice
+			//Juice_ApplyScaling(0.7, 1.3, 1, 1);
+			//Juice_ApplyFlash(c_white, 1);
+			
+		}
+	}
+
+}
+
+#endregion
 
 //Cooldown 
 if (cooldown > 0) cooldown --;
