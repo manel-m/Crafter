@@ -102,11 +102,11 @@ with (_dirt){
 			other.cooldown = 20;
 			
 			//change soil assets
-			//instance_create_layer(x,y, "Instances", oNewHole);
+			image_index = 1;
 			
 			//Juice
-			//Juice_ApplyScaling(0.7, 1.3, 1, 1);
-			//Juice_ApplyFlash(c_white, 1);
+			Juice_ApplyScaling(0.7, 1.3, 1, 1);
+			Juice_ApplyFlash(c_white, 1);
 			
 		}
 	}

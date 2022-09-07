@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sNewHole",
-    "path": "sprites/sNewHole/sNewHole.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

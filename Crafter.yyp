@@ -36,7 +36,6 @@
     {"id":{"name":"sEnemy0","path":"sprites/sEnemy0/sEnemy0.yy",},"order":0,},
     {"id":{"name":"sBeetroot","path":"sprites/sBeetroot/sBeetroot.yy",},"order":12,},
     {"id":{"name":"sSword","path":"sprites/sSword/sSword.yy",},"order":3,},
-    {"id":{"name":"sNewHole","path":"sprites/sNewHole/sNewHole.yy",},"order":9,},
     {"id":{"name":"oNPCParent","path":"objects/oNPCParent/oNPCParent.yy",},"order":7,},
     {"id":{"name":"sHouse2Icon","path":"sprites/sHouse2Icon/sHouse2Icon.yy",},"order":1,},
     {"id":{"name":"sStatueOld","path":"sprites/sStatueOld/sStatueOld.yy",},"order":19,},
