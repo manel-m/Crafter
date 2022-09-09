@@ -85,8 +85,10 @@ var _dirt = instance_position(mouse_x, mouse_y, oDirt);
 with (_dirt){
 	//Get distance 
 	var _dist = distance_to_object(oPlayer);
-	//In range
-	if (oPlayer.heldItem.object_index == oShovel && _dist < other.breakDistance){
+	
+	
+	// Dig holes
+	if (oPlayer.heldItem.object_index == oShovel && image_index == 0 && _dist < other.breakDistance){
 		// Set selector
 		other.selectorInst = id;
 		
@@ -105,9 +107,55 @@ with (_dirt){
 			image_index = 1;
 			
 			//Juice
-			Juice_ApplyScaling(0.7, 1.3, 1, 1);
-			Juice_ApplyFlash(c_white, 1);
+			//Juice_ApplyScaling(0.7, 1.3, 1, 1);
+			//Juice_ApplyFlash(c_white, 1);
 			
+		}
+	}
+	
+	//Plant seeds
+	if (oPlayer.heldItem.object_index == oPlant && image_index == 1 && _dist < other.breakDistance){
+			// Set selector
+		other.selectorInst = id;
+		
+		//click
+		if(other.cooldown == 0 && _mousePress){
+			//Reduce hp
+			//hp --;
+			
+			//Set rotation
+			other.rotation = -80;
+			
+			//Set cooldown
+			other.cooldown = 20;
+			
+			//change soil assets
+			image_index = 2;
+			
+		
+		}
+	}
+	
+	//Watering
+	if (oPlayer.heldItem.object_index == oWater && image_index == 2 && _dist < other.breakDistance){
+			// Set selector
+		other.selectorInst = id;
+		
+		//click
+		if(other.cooldown == 0 && _mousePress){
+			//Reduce hp
+			//hp --;
+			
+			//Set rotation
+			other.rotation = -80;
+			
+			//Set cooldown
+			other.cooldown = 20;
+			
+			//change soil assets
+			image_index = 3;
+			
+		
 		}
 	}
 
