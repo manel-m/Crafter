@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "sPotatoPlant",
-    "path": "sprites/sPotatoPlant/sPotatoPlant.yy",
+    "name": "sBeetrootPlant",
+    "path": "sprites/sBeetrootPlant/sBeetrootPlant.yy",
   },
   "solid": false,
   "visible": true,
@@ -34,7 +34,7 @@
     "path": "folders/Objects/World/Plants.yy",
   },
   "resourceVersion": "1.0",
-  "name": "oPotato",
+  "name": "oBeet",
   "tags": [],
   "resourceType": "GMObject",
 }

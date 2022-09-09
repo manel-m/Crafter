@@ -20,7 +20,7 @@ switch (seedType) {
 		break;
 		
 		case sBeetInv:
-			_seedObject = oCarrot;
+			_seedObject = oBeet;
 		break;
 
 	}

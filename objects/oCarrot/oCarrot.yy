@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "World",
-    "path": "folders/Objects/World.yy",
+    "name": "Plants",
+    "path": "folders/Objects/World/Plants.yy",
   },
   "resourceVersion": "1.0",
   "name": "oCarrot",

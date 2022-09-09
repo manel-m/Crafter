@@ -1,8 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-draw_sprite_ext(sHole, 0, x, y, image_xscale, image_yscale, image_angle, image_blend, image_alpha);
-
 // Inherit the parent event
 event_inherited();
 
+//Ressources
+res = [ITEM.BEET];
+
+hp = 3;
+hpMax = hp;

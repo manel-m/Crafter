@@ -14,6 +14,7 @@ function init(){
 		CARROT,
 		SUNFLOWER,
 		POTATO,
+		BEET,
 		
 		STONE,
 		IRON,
@@ -43,6 +44,8 @@ function init(){
 	initItem(ITEM.CARROT, "Carrot", sCarrot, []);
 	initItem(ITEM.SUNFLOWER, "Sunflower", sSunflower, [], undefined,6);
 	initItem(ITEM.POTATO, "Potato", sPotato, [], undefined,6);
+	initItem(ITEM.BEET, "Beet", sBeetroot, [], undefined,6);
+
 
 	
 	initItem(ITEM.STONE, "Stone", sStone, []);

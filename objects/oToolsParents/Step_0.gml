@@ -88,7 +88,7 @@ with (_dirt){
 	
 	
 	// Dig holes
-	if (oPlayer.heldItem.object_index == oShovel && image_index == 0 && _dist < other.breakDistance){
+	if (oPlayer.heldItem.object_index == oShovel && (image_index == 0 || image_index == 4) && _dist < other.breakDistance){
 		// Set selector
 		other.selectorInst = id;
 		

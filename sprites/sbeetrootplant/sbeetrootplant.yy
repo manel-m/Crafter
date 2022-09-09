@@ -8,14 +8,14 @@
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
   "bbox_left": 0,
-  "bbox_right": 10,
+  "bbox_right": 15,
   "bbox_top": 0,
-  "bbox_bottom": 14,
+  "bbox_bottom": 15,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 11,
-  "height": 15,
+  "width": 16,
+  "height": 16,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"95f0dff3-a566-48fc-98f3-7df2ca64af7b","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"95f0dff3-a566-48fc-98f3-7df2ca64af7b","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"LayerId":{"name":"952db093-c8c2-4334-b4aa-c018629df65a","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPotatoPlant","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"resourceVersion":"1.0","name":"95f0dff3-a566-48fc-98f3-7df2ca64af7b","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"744a137b-2e8e-4452-8358-becd2a95fb51","path":"sprites/sBeetrootPlant/sBeetrootPlant.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"744a137b-2e8e-4452-8358-becd2a95fb51","path":"sprites/sBeetrootPlant/sBeetrootPlant.yy",},"LayerId":{"name":"98e44c26-5f82-4fe7-9bca-5bd6d0ddd315","path":"sprites/sBeetrootPlant/sBeetrootPlant.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sBeetrootPlant","path":"sprites/sBeetrootPlant/sBeetrootPlant.yy",},"resourceVersion":"1.0","name":"744a137b-2e8e-4452-8358-becd2a95fb51","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"sPotatoPlant","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},
+    "spriteId": {"name":"sBeetrootPlant","path":"sprites/sBeetrootPlant/sBeetrootPlant.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c41739a9-59d6-498a-9f2f-fbacf37d9afe","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"95f0dff3-a566-48fc-98f3-7df2ca64af7b","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"d853526e-79ea-4057-bbd1-ba3167fd60ae","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"744a137b-2e8e-4452-8358-becd2a95fb51","path":"sprites/sBeetrootPlant/sBeetrootPlant.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,18 +54,18 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 5,
+    "xorigin": 11,
     "yorigin": 13,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sPotatoPlant","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},
+    "parent": {"name":"sBeetrootPlant","path":"sprites/sBeetrootPlant/sBeetrootPlant.yy",},
     "resourceVersion": "1.4",
-    "name": "sPotatoPlant",
+    "name": "sBeetrootPlant",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"952db093-c8c2-4334-b4aa-c018629df65a","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"98e44c26-5f82-4fe7-9bca-5bd6d0ddd315","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/World/Plants.yy",
   },
   "resourceVersion": "1.0",
-  "name": "sPotatoPlant",
+  "name": "sBeetrootPlant",
   "tags": [],
   "resourceType": "GMSprite",
 }
