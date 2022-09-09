@@ -32,6 +32,7 @@ if (hover && lclick) {
 		instance_destroy(heldItem);
 		heldItem = instance_create_layer(x,y,"Instances",_seedObject); 
 		show_debug_message("sprite selected");
+		seedType = other.seedType;
 	}
 	
 	with (oButtonSelectSeeds) {
@@ -56,6 +57,8 @@ if (hover && lclick) {
 			default:
 				seedSprite = sCarrot;
 		}
+		
+		
 	
 		//seedSprite = other.seedType;
 		event_user(0);

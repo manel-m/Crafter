@@ -105,6 +105,7 @@ with (_dirt){
 			
 			//change soil assets
 			image_index = 1;
+
 			
 			//Juice
 			//Juice_ApplyScaling(0.7, 1.3, 1, 1);
@@ -131,6 +132,7 @@ with (_dirt){
 			
 			//change soil assets
 			image_index = 2;
+			seedType = oPlayer.seedType;
 			
 		
 		}
@@ -154,7 +156,8 @@ with (_dirt){
 			
 			//change soil assets
 			image_index = 3;
-			
+			alarm[0] = 20
+
 		
 		}
 	}

@@ -32,3 +32,6 @@ placingInst = noone;
 
 //Show key
 showKey = -1;
+
+
+seedType = noone;
