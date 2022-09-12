@@ -27,6 +27,7 @@
     {"id":{"name":"oHair","path":"objects/oHair/oHair.yy",},"order":1,},
     {"id":{"name":"oSunflower","path":"objects/oSunflower/oSunflower.yy",},"order":2,},
     {"id":{"name":"sPlayer_Idle","path":"sprites/sPlayer_Idle/sPlayer_Idle.yy",},"order":0,},
+    {"id":{"name":"oCrop","path":"objects/oCrop/oCrop.yy",},"order":4,},
     {"id":{"name":"sPlayer_Move","path":"sprites/sPlayer_Move/sPlayer_Move.yy",},"order":1,},
     {"id":{"name":"oDirt","path":"objects/oDirt/oDirt.yy",},"order":14,},
     {"id":{"name":"oLake","path":"objects/oLake/oLake.yy",},"order":7,},

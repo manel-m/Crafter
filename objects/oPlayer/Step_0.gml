@@ -29,6 +29,7 @@ if(collision(x + moveX,y)){
 		x += sign(moveX);
 	}
 	moveX = 0;
+	show_debug_message("PLAYER COLLISION")
 }
 
 if (collision(x, y + moveY)){
@@ -36,6 +37,8 @@ if (collision(x, y + moveY)){
 		y += sign(moveY);
 	}
 	moveY = 0;
+	show_debug_message("PLAYER COLLISION")
+
 }
 
 //Move instance

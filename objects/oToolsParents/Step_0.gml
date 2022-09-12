@@ -17,7 +17,7 @@ with (_breakable){
 	var _dist = distance_to_object(oPlayer);
 	
 	//In range
-	if (!nonBreakable && _dist < other.breakDistance && oPlayer.heldItem.object_index != oShovel){
+	if (!nonBreakable && _dist < other.breakDistance && oPlayer.heldItem.object_index == oPickaxe){
 		// Set selector
 		other.selectorInst = id;
 		//click
@@ -34,6 +34,10 @@ with (_breakable){
 			//Juice
 			Juice_ApplyScaling(0.7, 1.3, 1, 1);
 			Juice_ApplyFlash(c_white, 1);
+			
+			//if _breakable.object_index == oCrop {
+			//	oDirt.alarm[1] = 60
+			//}
 			
 		}
 	}
@@ -96,7 +100,6 @@ with (_dirt){
 		if(other.cooldown == 0 && _mousePress){
 			//Reduce hp
 			//hp --;
-			
 			//Set rotation
 			other.rotation = -80;
 			
@@ -105,12 +108,6 @@ with (_dirt){
 			
 			//change soil assets
 			image_index = 1;
-
-			
-			//Juice
-			//Juice_ApplyScaling(0.7, 1.3, 1, 1);
-			//Juice_ApplyFlash(c_white, 1);
-			
 		}
 	}
 	
@@ -123,18 +120,13 @@ with (_dirt){
 		if(other.cooldown == 0 && _mousePress){
 			//Reduce hp
 			//hp --;
-			
 			//Set rotation
 			other.rotation = -80;
-			
 			//Set cooldown
 			other.cooldown = 20;
-			
 			//change soil assets
 			image_index = 2;
 			seedType = oPlayer.seedType;
-			
-		
 		}
 	}
 	
@@ -142,7 +134,6 @@ with (_dirt){
 	if (oPlayer.heldItem.object_index == oWater && image_index == 2 && _dist < other.breakDistance){
 			// Set selector
 		other.selectorInst = id;
-		
 		//click
 		if(other.cooldown == 0 && _mousePress){
 			//Reduce hp
@@ -157,8 +148,6 @@ with (_dirt){
 			//change soil assets
 			image_index = 3;
 			alarm[0] = 20
-
-		
 		}
 	}
 

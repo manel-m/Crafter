@@ -9,8 +9,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oBreakableParent",
-    "path": "objects/oBreakableParent/oBreakableParent.yy",
+    "name": "oCrop",
+    "path": "objects/oCrop/oCrop.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
