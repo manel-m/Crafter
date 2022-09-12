@@ -32,3 +32,6 @@ placingInst = noone;
 
 //Show key
 showKey = -1;
+
+//save seedType from seed inventory
+seedType = sCarrotInv;

@@ -5,10 +5,8 @@
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": {
-    "name": "sPlayer_IdleOld",
-    "path": "sprites/sPlayer_IdleOld/sPlayer_IdleOld.yy",
-  },
+  "managed": true,
+  "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,
@@ -35,8 +33,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Player",
+    "path": "folders/Objects/Player.yy",
   },
   "resourceVersion": "1.0",
   "name": "oPlayer",
