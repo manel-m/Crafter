@@ -10,7 +10,7 @@
   "bbox_left": 9,
   "bbox_right": 90,
   "bbox_top": 31,
-  "bbox_bottom": 65,
+  "bbox_bottom": 64,
   "HTile": false,
   "VTile": false,
   "For3D": false,
