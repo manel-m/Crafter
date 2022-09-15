@@ -147,7 +147,9 @@ with (_dirt){
 			
 			//change soil assets
 			image_index = 3;
-			alarm[0] = 20
+			event_user(0);
+			
+			
 		}
 	}
 

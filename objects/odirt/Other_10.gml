@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-show_debug_message("TESTING ALARM")
-//drawSeed = true;
 //create instance here
 var _seedObject = noone;
 
@@ -28,3 +26,6 @@ switch (seedType) {
 
 instance_create_layer(x+8,y+10,"Instances",_seedObject); 
 image_index = 4
+
+
+show_debug_message("CARROT INSTANCE CREATED")

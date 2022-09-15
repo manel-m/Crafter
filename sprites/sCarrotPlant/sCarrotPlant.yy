@@ -7,15 +7,15 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 0,
-  "bbox_right": 9,
+  "bbox_left": 3,
+  "bbox_right": 12,
   "bbox_top": 0,
   "bbox_bottom": 12,
   "HTile": false,
   "VTile": false,
   "For3D": false,
-  "width": 10,
-  "height": 13,
+  "width": 16,
+  "height": 16,
   "textureGroupId": {
     "name": "Default",
     "path": "texturegroups/Default",
@@ -24,24 +24,40 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"d20d0fd8-8c39-4047-9db4-227674a8bb91","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d20d0fd8-8c39-4047-9db4-227674a8bb91","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"LayerId":{"name":"ae678f45-8973-4f51-81f1-b3f3e27d9248","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sCarrotPlant","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"resourceVersion":"1.0","name":"d20d0fd8-8c39-4047-9db4-227674a8bb91","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"37a3570e-c2f8-46fa-b4ec-9c226b0d5839","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"37a3570e-c2f8-46fa-b4ec-9c226b0d5839","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"LayerId":{"name":"9a507eba-f3ff-49f7-83e5-d8fb3e3328cb","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sCarrotPlant","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"resourceVersion":"1.0","name":"37a3570e-c2f8-46fa-b4ec-9c226b0d5839","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"ef6b2b1d-822c-4774-8c17-280b5ca369f8","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"ef6b2b1d-822c-4774-8c17-280b5ca369f8","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"LayerId":{"name":"9a507eba-f3ff-49f7-83e5-d8fb3e3328cb","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sCarrotPlant","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"resourceVersion":"1.0","name":"ef6b2b1d-822c-4774-8c17-280b5ca369f8","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"1bf089d0-8306-4de1-b513-3d6c24df0b7d","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"1bf089d0-8306-4de1-b513-3d6c24df0b7d","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"LayerId":{"name":"9a507eba-f3ff-49f7-83e5-d8fb3e3328cb","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sCarrotPlant","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"resourceVersion":"1.0","name":"1bf089d0-8306-4de1-b513-3d6c24df0b7d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"13f01799-ad15-449d-a856-b15ccbdfd37d","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"13f01799-ad15-449d-a856-b15ccbdfd37d","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"LayerId":{"name":"9a507eba-f3ff-49f7-83e5-d8fb3e3328cb","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sCarrotPlant","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"resourceVersion":"1.0","name":"13f01799-ad15-449d-a856-b15ccbdfd37d","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"fd0d1812-e7b4-4071-a011-2889ab868210","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"fd0d1812-e7b4-4071-a011-2889ab868210","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"LayerId":{"name":"9a507eba-f3ff-49f7-83e5-d8fb3e3328cb","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"sCarrotPlant","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"resourceVersion":"1.0","name":"fd0d1812-e7b4-4071-a011-2889ab868210","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
     "spriteId": {"name":"sCarrotPlant","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 15.0,
+    "playbackSpeed": 0.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
-    "length": 1.0,
+    "length": 5.0,
     "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"30668936-c037-41ad-b29f-b3e017939f07","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d20d0fd8-8c39-4047-9db4-227674a8bb91","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"21a5a38c-4a37-422c-a105-29e400116b37","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"37a3570e-c2f8-46fa-b4ec-9c226b0d5839","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"787e04a8-8ab6-42f3-9335-c9a2221b5f06","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ef6b2b1d-822c-4774-8c17-280b5ca369f8","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"9d3acb5e-3730-466a-a046-17b794005b10","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"1bf089d0-8306-4de1-b513-3d6c24df0b7d","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"465327d4-83ad-4696-a209-ead746f1064f","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"13f01799-ad15-449d-a856-b15ccbdfd37d","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
+            {"id":"4bf426a3-a528-4d63-8f62-02137aac04d5","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"fd0d1812-e7b4-4071-a011-2889ab868210","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
     ],
     "visibleRange": null,
@@ -54,8 +70,8 @@
     "backdropHeight": 768,
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
-    "xorigin": 5,
-    "yorigin": 11,
+    "xorigin": 8,
+    "yorigin": 13,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sCarrotPlant","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},
@@ -65,7 +81,7 @@
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"ae678f45-8973-4f51-81f1-b3f3e27d9248","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9a507eba-f3ff-49f7-83e5-d8fb3e3328cb","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
