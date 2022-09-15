@@ -25,7 +25,8 @@ switch (seedType) {
 	
 
 instance_create_layer(x+8,y+10,"Instances",_seedObject); 
-image_index = 4
+image_index = 3
+alarm[1] = 30;
 
 
 show_debug_message("CARROT INSTANCE CREATED")

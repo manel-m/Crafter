@@ -71,7 +71,7 @@
     "backdropXOffset": 0.0,
     "backdropYOffset": 0.0,
     "xorigin": 8,
-    "yorigin": 15,
+    "yorigin": 18,
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sSunflowerPlant","path":"sprites/sSunflowerPlant/sSunflowerPlant.yy",},

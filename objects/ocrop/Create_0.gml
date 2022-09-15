@@ -1,17 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
 // Inherit the parent event
 event_inherited();
 
-//Ressources
-res = [ITEM.CARROT];
+image_index = 0;
 
-hp = 4;
-hpMax = hp;
+grow_speed = room_speed * 2;
+alarm[0] = grow_speed ;
 
-
-//image_index = 0;
-
-//grow_speed = room_speed * 2;
-//alarm[0] = grow_speed ;
