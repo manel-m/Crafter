@@ -9,9 +9,3 @@ res = [ITEM.CARROT];
 
 hp = 4;
 hpMax = hp;
-
-
-//image_index = 0;
-
-//grow_speed = room_speed * 2;
-//alarm[0] = grow_speed ;

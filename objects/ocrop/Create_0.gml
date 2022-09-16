@@ -11,3 +11,5 @@ grow_speed = room_speed * 2;
 alarm[0] = grow_speed ;
 
 nonBreakable = true;
+
+Juice_Create();
