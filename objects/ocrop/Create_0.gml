@@ -10,4 +10,4 @@ image_index = 0;
 grow_speed = room_speed * 2;
 alarm[0] = grow_speed ;
 
-growing = false;
+nonBreakable = true;

@@ -17,8 +17,8 @@ with (_breakable){
 	var _dist = distance_to_object(oPlayer);
 	
 	//In range
-	if (!nonBreakable && _dist < other.breakDistance && oPlayer.heldItem.object_index == oPickaxe 
-	&& oCrop.growing){
+	if (!nonBreakable && _dist < other.breakDistance && oPlayer.heldItem.object_index == oPickaxe){
+		
 		// Set selector
 		other.selectorInst = id;
 		//click
