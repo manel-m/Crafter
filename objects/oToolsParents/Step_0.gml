@@ -39,7 +39,6 @@ with (_breakable){
 			//if _breakable.object_index == oCrop {
 			//	oDirt.alarm[1] = 60
 			//}
-			
 		}
 	}
 }
@@ -148,7 +147,7 @@ with (_dirt){
 			
 			//change soil assets
 			image_index = 3;
-			event_user(0);
+			event_user(0); // oDirt:User Event 0
 			
 			
 		}

@@ -12,4 +12,6 @@ alarm[0] = grow_speed ;
 
 nonBreakable = true;
 
+dirt = noone;
+
 Juice_Create();

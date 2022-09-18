@@ -24,7 +24,9 @@ switch (seedType) {
 	}
 	
 
-instance_create_layer(x+8,y+10,"Instances",_seedObject); 
+var crop = instance_create_layer(x+8,y+10,"Instances",_seedObject);
+crop.dirt = id;
+
 image_index = 3
 alarm[1] = 30;
 
