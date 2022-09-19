@@ -18,6 +18,7 @@ with (_breakable){
 	
 	//In range
 	if (!nonBreakable && _dist < other.breakDistance && oPlayer.heldItem.object_index == oPickaxe){
+		
 		// Set selector
 		other.selectorInst = id;
 		//click
@@ -38,7 +39,6 @@ with (_breakable){
 			//if _breakable.object_index == oCrop {
 			//	oDirt.alarm[1] = 60
 			//}
-			
 		}
 	}
 }
@@ -147,7 +147,9 @@ with (_dirt){
 			
 			//change soil assets
 			image_index = 3;
-			alarm[0] = 20
+			event_user(0); // oDirt:User Event 0
+			
+			
 		}
 	}
 
