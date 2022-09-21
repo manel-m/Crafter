@@ -10,7 +10,4 @@ res = [ITEM.APPLE, ITEM.ORANGE,ITEM.WOOD];
 hp = 3;
 hpMax = hp;
 
-sway_max = 2;
-sway_dx = random_range(-sway_max,sway_max);
-sway_speed = 0.05
-sway_right = true;
+Juice_ApplySway(2,0.05);

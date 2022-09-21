@@ -11,6 +11,13 @@ function Juice_Create(){
 	//Flashing
 	flashAlpha =0;
 	flashColor = c_white;
+	
+	//Swaying
+	sway_max = 0;
+	sway_dx = 0;
+	sway_speed = 0;
+	sway_right = true;
+	
 }
 
 function Juice_Step () {
@@ -20,21 +27,46 @@ function Juice_Step () {
 	if (flashAlpha > 0) {
 		flashAlpha -= 0.1;
 	}
+	
+	if (sway_max > 0) {
+		if (sway_right){
+			sway_dx += sway_speed;
+			if (sway_dx >= sway_max) sway_right = false
+		} else {
+			sway_dx -= sway_speed;
+			if (sway_dx <= -sway_max) sway_right = true;
+		}	
+	}
 }
 
 function Juice_Draw (_x, _y) {
-	draw_sprite_ext(sprite_index, image_index, _x, _y, image_xscale * xscale, image_yscale * yscale,
-		image_angle, image_blend, image_alpha);
-	
+
 	//Draw flash
 	if (flashAlpha >0) {
+		draw_sprite_ext(sprite_index, image_index, _x, _y, image_xscale * xscale, image_yscale * yscale,
+		image_angle, image_blend, image_alpha);
+		
 		shader_set(shFlash);
 		draw_sprite_ext(sprite_index, image_index, _x, _y, image_xscale * xscale, image_yscale * yscale,
 			image_angle, flashColor, flashAlpha);
 		shader_reset();
+	} else if (sway_max > 0){
+		
+		var _left = _x- sprite_xoffset;
+		var _top = _y-sprite_yoffset;
+		var _width = sprite_width;
+
+		draw_sprite_pos(sprite_index, image_index,
+					_left + sway_dx , _top,
+					_left + _width + sway_dx, _top,
+					_left + _width , _top + sprite_height,
+					_left, _top + sprite_height, 1)	
 	
+	} else {
+		draw_sprite_ext(sprite_index, image_index, _x, _y, image_xscale * xscale, image_yscale * yscale,
+		image_angle, image_blend, image_alpha);
 	}
-}
+}	
 
 
 function Juice_ApplyScaling (_xscale, _yscale, _xscaleTarget, _yscaleTarget ) {
@@ -47,4 +79,10 @@ function Juice_ApplyScaling (_xscale, _yscale, _xscaleTarget, _yscaleTarget ) {
 function Juice_ApplyFlash (_flashColor, _flashAlpha) {
 	flashColor = _flashColor;
 	flashAlpha = _flashAlpha;
+}
+
+function Juice_ApplySway (_swayMax, _swaySpeed) {
+	sway_max = _swayMax;
+	sway_speed = _swaySpeed;
+	sway_dx = random_range(-sway_max,sway_max);
 }
