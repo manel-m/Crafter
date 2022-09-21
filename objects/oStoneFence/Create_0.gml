@@ -12,3 +12,6 @@ hp = 2;
 hpMax = hp;
 
 
+nonBreakable = true;
+alarm[0] = room_speed * 5;
+
