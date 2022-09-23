@@ -38,3 +38,6 @@ seedType = sCarrotInv;
 // true when the player is using the pickaxe
 using_pickaxe = false;
 pickaxe_breakable = noone;
+// true when the player is using the shovel
+using_shovel = false;
+shovel_dirt = noone;

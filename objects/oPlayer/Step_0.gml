@@ -51,9 +51,15 @@ if (using_pickaxe) {
 		using_pickaxe = false;
 		with (pickaxe_breakable){
 			event_user(0);
-		
 		}
-	
+	}
+} else if (using_shovel) {
+	sprite_index = sPlayer_Shovel ;
+	if (image_index >= image_number - 1) {
+		using_shovel = false;
+		with (shovel_dirt){
+			event_user(1);
+		}
 	}
 } else if (moveX != 0 or moveY != 0){
 		//Animation: Move 

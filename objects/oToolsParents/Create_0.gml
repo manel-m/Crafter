@@ -5,7 +5,7 @@ cooldown = 0;
 //Properties 
 //rotation = 0;
 rotation = 45;
-breakDistance = 32;
+breakDistance = 15;
 
 //Attacking
 attackDistance =8;
