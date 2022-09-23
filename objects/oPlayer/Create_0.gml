@@ -33,3 +33,8 @@ showKey = -1;
 
 //save seedType from seed inventory
 seedType = sCarrotInv;
+
+
+// true when the player is using the pickaxe
+using_pickaxe = false;
+pickaxe_breakable = noone;

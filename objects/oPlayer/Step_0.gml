@@ -45,14 +45,21 @@ if (collision(x, y + moveY)){
 x += moveX;
 y += moveY;
 
-
-//Animation: Move 
-if(moveX != 0 or moveY != 0){
-	sprite_index = sPlayer_Move;
+if (using_pickaxe) {
+	sprite_index = sPlayer_Pickaxe ;
+	if (image_index >= image_number - 1) {
+		using_pickaxe = false;
+		with (pickaxe_breakable){
+			event_user(0);
+		
+		}
 	
-}
-//Animation : Idle
-else {
+	}
+} else if (moveX != 0 or moveY != 0){
+		//Animation: Move 
+	sprite_index = sPlayer_Move;
+} else {
+	//Animation : Idle
 	sprite_index = sPlayer_Idle;
 }
 
