@@ -5,12 +5,7 @@ if (instance_exists(heldItem)){
 	heldItem.y = y + 5;
 }
 
-if (instance_exists(hair)){
-	hair.x = x ;
-	hair.y = y ;
-	
-	hair.image_xscale = image_xscale;
-}
+
 
 //Placing mode
 if (placingMode && instance_exists(placingInst)) {
