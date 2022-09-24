@@ -45,14 +45,47 @@ if (collision(x, y + moveY)){
 x += moveX;
 y += moveY;
 
+if (using_pickaxe) {
+	//show_debug_message("USING_PICKAXE")
+	sprite_index = sPlayer_Pickaxe ;
+	if (image_index >= image_number - 1) {
+		using_pickaxe = false;
+		with (pickaxe_breakable){
+			event_user(0);
+		}
+	}
+} else if (using_shovel) {
+	//show_debug_message("USING_SHOVEL")
+	sprite_index = sPlayer_Shovel ;
+	if (image_index >= image_number - 1) {
+		using_shovel = false;
+		with (shovel_dirt){
+			event_user(1);
+		}
+	}
+} else if (using_plant) {
+	sprite_index = sPlayer_Plant ;
+	if (image_index >= image_number - 1) {
+		using_plant = false;
+		with (plant_dirt){
+			event_user(2);
+		}
+	}
+} else if (using_water) {
 
-//Animation: Move 
-if(moveX != 0 or moveY != 0){
+	sprite_index = sPlayer_Water ;
+	//if (image_index >= image_number - 1) {
+	//	// end using water tool
+	//	using_water = false;
+	//	with (water_dirt){
+	//		event_user(0);
+	//	}
+	//}
+} else if (moveX != 0 or moveY != 0){
+		//Animation: Move 
 	sprite_index = sPlayer_Move;
-	
-}
-//Animation : Idle
-else {
+} else {
+	//Animation : Idle
 	sprite_index = sPlayer_Idle;
 }
 

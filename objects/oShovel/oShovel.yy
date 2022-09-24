@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sShovel",
-    "path": "sprites/sShovel/sShovel.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

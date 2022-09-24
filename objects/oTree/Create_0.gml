@@ -9,3 +9,5 @@ res = [ITEM.APPLE, ITEM.ORANGE,ITEM.WOOD];
 
 hp = 3;
 hpMax = hp;
+
+Juice_ApplySway(2,0.05);

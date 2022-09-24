@@ -1,14 +1,14 @@
 {
   "spriteId": {
-    "name": "sPlayer_Idle",
-    "path": "sprites/sPlayer_Idle/sPlayer_Idle.yy",
+    "name": "sPlayer_IdleOLD",
+    "path": "sprites/sPlayer_IdleOLD/sPlayer_IdleOLD.yy",
   },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": {
-    "name": "sPlayer_Idle",
-    "path": "sprites/sPlayer_Idle/sPlayer_Idle.yy",
+    "name": "sPlayer_IdleOLD",
+    "path": "sprites/sPlayer_IdleOLD/sPlayer_IdleOLD.yy",
   },
   "persistent": false,
   "parentObjectId": null,
@@ -32,6 +32,8 @@
     {"isDnD":false,"eventNum":10,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":11,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":12,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],

@@ -29,6 +29,3 @@ crop.dirt = id;
 
 image_index = 3
 alarm[1] = 30;
-
-
-//show_debug_message("CARROT INSTANCE CREATED")

@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sPickaxe",
-    "path": "sprites/sPickaxe/sPickaxe.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

@@ -20,19 +20,12 @@ with (_breakable){
 		// Set selector
 		other.selectorInst = id;
 		//click
-		if(other.cooldown == 0 && _mousePress){
-			//Reduce hp
-			hp --;
-			
-			//Set rotation
-			other.rotation = -80;
-			
-			//Set cooldown
-			other.cooldown = 20;
-			
-			//Juice
-			Juice_ApplyScaling(0.7, 1.3, 1, 1);
-			Juice_ApplyFlash(c_white, 1);
+		if(!oPlayer.using_pickaxe && _mousePress){
+		
+			oPlayer.using_pickaxe = true;
+			oPlayer.image_index = 0;
+			oPlayer.pickaxe_breakable = id;
+		
 		}
 	}
 }

@@ -10,5 +10,7 @@ if (image_index < 4) {
 	//show_debug_message("non breakable");
 	nonBreakable = false;
 	Juice_ApplyFlash(c_white, 1);
+	Juice_ApplySway(2,0.025);
 }
 Juice_ApplyScaling(0.7, 1.4, 1, 1);
+
