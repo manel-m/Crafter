@@ -74,12 +74,13 @@ if (using_pickaxe) {
 } else if (using_water) {
 
 	sprite_index = sPlayer_Water ;
-	if (image_index >= image_number - 1) {
-		using_water = false;
-		with (water_dirt){
-			event_user(0);
-		}
-	}
+	//if (image_index >= image_number - 1) {
+	//	// end using water tool
+	//	using_water = false;
+	//	with (water_dirt){
+	//		event_user(0);
+	//	}
+	//}
 } else if (moveX != 0 or moveY != 0){
 		//Animation: Move 
 	sprite_index = sPlayer_Move;

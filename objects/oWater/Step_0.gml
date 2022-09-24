@@ -25,10 +25,8 @@ with (_dirt){
 			oPlayer.using_water = true;
 			oPlayer.image_index = 0;
 			oPlayer.water_dirt = id;
+			oPlayer.alarm[0] = room_speed * 1 // alarm in oPlayer to end water animation
 			
-			//change soil assets
-			//image_index = 3;
-			//event_user(0); // oDirt:User Event 0
 			
 			
 		}
