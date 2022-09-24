@@ -64,13 +64,20 @@ if (using_pickaxe) {
 		}
 	}
 } else if (using_plant) {
-	show_debug_message("PLAYER IS PLANTING ?????????????????????")
-
 	sprite_index = sPlayer_Plant ;
 	if (image_index >= image_number - 1) {
 		using_plant = false;
 		with (plant_dirt){
 			event_user(2);
+		}
+	}
+} else if (using_water) {
+
+	sprite_index = sPlayer_Water ;
+	if (image_index >= image_number - 1) {
+		using_water = false;
+		with (water_dirt){
+			event_user(0);
 		}
 	}
 } else if (moveX != 0 or moveY != 0){

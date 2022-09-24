@@ -20,19 +20,15 @@ with (_dirt){
 			// Set selector
 		other.selectorInst = id;
 		//click
-		if(other.cooldown == 0 && _mousePress){
-			//Reduce hp
-			//hp --;
+		if(!oPlayer.using_water && _mousePress){
 			
-			//Set rotation
-			other.rotation = -80;
-			
-			//Set cooldown
-			other.cooldown = 20;
+			oPlayer.using_water = true;
+			oPlayer.image_index = 0;
+			oPlayer.water_dirt = id;
 			
 			//change soil assets
-			image_index = 3;
-			event_user(0); // oDirt:User Event 0
+			//image_index = 3;
+			//event_user(0); // oDirt:User Event 0
 			
 			
 		}

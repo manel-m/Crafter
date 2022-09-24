@@ -44,3 +44,7 @@ shovel_dirt = noone;
 // when the player plants the seeds
 using_plant = false;
 plant_dirt = noone;
+
+//When the player is watering the plants
+using_water = false;
+water_dirt = noone;

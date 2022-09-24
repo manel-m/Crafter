@@ -66,6 +66,7 @@
     {"id":{"name":"rmInit","path":"rooms/rmInit/rmInit.yy",},"order":1,},
     {"id":{"name":"sBackgound","path":"sprites/sBackgound/sBackgound.yy",},"order":14,},
     {"id":{"name":"sWhiteBox","path":"sprites/sWhiteBox/sWhiteBox.yy",},"order":5,},
+    {"id":{"name":"sPlayer_Water","path":"sprites/sPlayer_Water/sPlayer_Water.yy",},"order":7,},
     {"id":{"name":"sCarrotPlant","path":"sprites/sCarrotPlant/sCarrotPlant.yy",},"order":0,},
     {"id":{"name":"Fence","path":"scripts/Fence/Fence.yy",},"order":7,},
     {"id":{"name":"oPlaceableParent","path":"objects/oPlaceableParent/oPlaceableParent.yy",},"order":0,},
