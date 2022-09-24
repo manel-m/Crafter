@@ -7,6 +7,7 @@ event_inherited();
 
 // Get input 
 var _mousePress = mouse_check_button(mb_left);
+//if (_mousePress) show_debug_message("oPlant:Step:_mousePressA");
 
 //Get dirt instance at mouse position
 var _dirt = instance_position(mouse_x, mouse_y, oDirt);
@@ -19,18 +20,22 @@ with (_dirt){
 	if (image_index == 1 && _dist < other.breakDistance){
 			// Set selector
 		other.selectorInst = id;
-		
+		//if (_mousePress) show_debug_message("oPlant:Step:_mousePressB");
 		//click
-		if(other.cooldown == 0 && _mousePress){
+		if(!oPlayer.using_plant && _mousePress){
+			show_debug_message("oPlant Action")
+			oPlayer.using_plant = true;
+			oPlayer.image_index = 0;
+			oPlayer.plant_dirt = id;
 			//Reduce hp
 			//hp --;
 			//Set rotation
-			other.rotation = -80;
+			//other.rotation = -80;
 			//Set cooldown
-			other.cooldown = 20;
+			//other.cooldown = 20;
 			//change soil assets
-			image_index = 2;
-			seedType = oPlayer.seedType;
+			//image_index = 2;
+			//seedType = oPlayer.seedType;
 		}
 	}
 }

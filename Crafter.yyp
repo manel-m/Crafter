@@ -140,6 +140,7 @@
     {"id":{"name":"oBreakableParent","path":"objects/oBreakableParent/oBreakableParent.yy",},"order":1,},
     {"id":{"name":"oHouse2","path":"objects/oHouse2/oHouse2.yy",},"order":1,},
     {"id":{"name":"oShovel","path":"objects/oShovel/oShovel.yy",},"order":2,},
+    {"id":{"name":"sPlayer_Plant","path":"sprites/sPlayer_Plant/sPlayer_Plant.yy",},"order":6,},
     {"id":{"name":"oBeet","path":"objects/oBeet/oBeet.yy",},"order":3,},
     {"id":{"name":"oWoodenChestLarge","path":"objects/oWoodenChestLarge/oWoodenChestLarge.yy",},"order":2,},
     {"id":{"name":"ftTitle","path":"fonts/ftTitle/ftTitle.yy",},"order":1,},

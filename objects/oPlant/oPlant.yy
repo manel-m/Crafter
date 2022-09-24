@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "sPlant",
-    "path": "sprites/sPlant/sPlant.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,

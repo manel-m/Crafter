@@ -46,6 +46,7 @@ x += moveX;
 y += moveY;
 
 if (using_pickaxe) {
+	//show_debug_message("USING_PICKAXE")
 	sprite_index = sPlayer_Pickaxe ;
 	if (image_index >= image_number - 1) {
 		using_pickaxe = false;
@@ -54,11 +55,22 @@ if (using_pickaxe) {
 		}
 	}
 } else if (using_shovel) {
+	//show_debug_message("USING_SHOVEL")
 	sprite_index = sPlayer_Shovel ;
 	if (image_index >= image_number - 1) {
 		using_shovel = false;
 		with (shovel_dirt){
 			event_user(1);
+		}
+	}
+} else if (using_plant) {
+	show_debug_message("PLAYER IS PLANTING ?????????????????????")
+
+	sprite_index = sPlayer_Plant ;
+	if (image_index >= image_number - 1) {
+		using_plant = false;
+		with (plant_dirt){
+			event_user(2);
 		}
 	}
 } else if (moveX != 0 or moveY != 0){

@@ -41,3 +41,6 @@ pickaxe_breakable = noone;
 // true when the player is using the shovel
 using_shovel = false;
 shovel_dirt = noone;
+// when the player plants the seeds
+using_plant = false;
+plant_dirt = noone;
