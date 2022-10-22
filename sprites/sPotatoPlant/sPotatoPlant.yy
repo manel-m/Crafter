@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sPotatoPlant",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,24 +27,16 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c41f7515-bd81-4664-8151-35baa6e1d3a3","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c41f7515-bd81-4664-8151-35baa6e1d3a3","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"LayerId":{"name":"174b326f-78e0-4801-b994-5cde8df54c0c","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPotatoPlant","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"resourceVersion":"1.0","name":"c41f7515-bd81-4664-8151-35baa6e1d3a3","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"6a767361-3eab-48e2-a662-75e7a82b9bd2","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"6a767361-3eab-48e2-a662-75e7a82b9bd2","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"LayerId":{"name":"174b326f-78e0-4801-b994-5cde8df54c0c","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPotatoPlant","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"resourceVersion":"1.0","name":"6a767361-3eab-48e2-a662-75e7a82b9bd2","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"42fc89df-fa5b-42b4-956e-3fc74cb214e8","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"42fc89df-fa5b-42b4-956e-3fc74cb214e8","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"LayerId":{"name":"174b326f-78e0-4801-b994-5cde8df54c0c","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPotatoPlant","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"resourceVersion":"1.0","name":"42fc89df-fa5b-42b4-956e-3fc74cb214e8","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"a6f5237a-ea31-4f65-be6d-598f9c4e3c16","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"a6f5237a-ea31-4f65-be6d-598f9c4e3c16","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"LayerId":{"name":"174b326f-78e0-4801-b994-5cde8df54c0c","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPotatoPlant","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"resourceVersion":"1.0","name":"a6f5237a-ea31-4f65-be6d-598f9c4e3c16","tags":[],"resourceType":"GMSpriteFrame",},
-    {"compositeImage":{"FrameId":{"name":"d285cbaa-acb9-4a4c-9746-d3e22ac1daa1","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"d285cbaa-acb9-4a4c-9746-d3e22ac1daa1","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"LayerId":{"name":"174b326f-78e0-4801-b994-5cde8df54c0c","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPotatoPlant","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"resourceVersion":"1.0","name":"d285cbaa-acb9-4a4c-9746-d3e22ac1daa1","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c41f7515-bd81-4664-8151-35baa6e1d3a3",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"6a767361-3eab-48e2-a662-75e7a82b9bd2",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"42fc89df-fa5b-42b4-956e-3fc74cb214e8",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a6f5237a-ea31-4f65-be6d-598f9c4e3c16",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"d285cbaa-acb9-4a4c-9746-d3e22ac1daa1",},
   ],
   "sequence": {
-    "spriteId": {"name":"sPotatoPlant","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sPotatoPlant",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 0.0,
@@ -49,16 +44,16 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 5.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"2a5b33aa-899c-4300-b803-505d3ddf2f71","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c41f7515-bd81-4664-8151-35baa6e1d3a3","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"a6a5f777-d80b-486c-bcb0-b00a7112a331","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6a767361-3eab-48e2-a662-75e7a82b9bd2","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"59c66cec-66f7-4458-aaee-734defeebfe8","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"42fc89df-fa5b-42b4-956e-3fc74cb214e8","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"04676103-6b5d-48e6-b53d-d9a580eac3dc","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a6f5237a-ea31-4f65-be6d-598f9c4e3c16","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-            {"id":"31ad615d-f340-4561-9036-9832bd9785e6","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d285cbaa-acb9-4a4c-9746-d3e22ac1daa1","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"2a5b33aa-899c-4300-b803-505d3ddf2f71","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c41f7515-bd81-4664-8151-35baa6e1d3a3","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"a6a5f777-d80b-486c-bcb0-b00a7112a331","Key":1.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"6a767361-3eab-48e2-a662-75e7a82b9bd2","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"59c66cec-66f7-4458-aaee-734defeebfe8","Key":2.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"42fc89df-fa5b-42b4-956e-3fc74cb214e8","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"04676103-6b5d-48e6-b53d-d9a580eac3dc","Key":3.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"a6f5237a-ea31-4f65-be6d-598f9c4e3c16","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"31ad615d-f340-4561-9036-9832bd9785e6","Key":4.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"d285cbaa-acb9-4a4c-9746-d3e22ac1daa1","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -74,22 +69,13 @@
     "yorigin": 15,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sPotatoPlant","path":"sprites/sPotatoPlant/sPotatoPlant.yy",},
-    "resourceVersion": "1.4",
-    "name": "sPotatoPlant",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"174b326f-78e0-4801-b994-5cde8df54c0c","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"174b326f-78e0-4801-b994-5cde8df54c0c","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Plants",
     "path": "folders/Sprites/World/Plants.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sPotatoPlant",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

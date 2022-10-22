@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sPlaceableBlock_Wood",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c97e1449-0b43-41d1-a6b2-9ea8c25a9679","path":"sprites/sPlaceableBlock_Wood/sPlaceableBlock_Wood.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c97e1449-0b43-41d1-a6b2-9ea8c25a9679","path":"sprites/sPlaceableBlock_Wood/sPlaceableBlock_Wood.yy",},"LayerId":{"name":"e9c102fa-4a85-4429-b921-3b7816ece79d","path":"sprites/sPlaceableBlock_Wood/sPlaceableBlock_Wood.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlaceableBlock_Wood","path":"sprites/sPlaceableBlock_Wood/sPlaceableBlock_Wood.yy",},"resourceVersion":"1.0","name":"c97e1449-0b43-41d1-a6b2-9ea8c25a9679","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c97e1449-0b43-41d1-a6b2-9ea8c25a9679",},
   ],
   "sequence": {
-    "spriteId": {"name":"sPlaceableBlock_Wood","path":"sprites/sPlaceableBlock_Wood/sPlaceableBlock_Wood.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sPlaceableBlock_Wood",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 15.0,
@@ -37,12 +40,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c813dfa6-c7cd-47b3-9839-dba8b7b656d8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c97e1449-0b43-41d1-a6b2-9ea8c25a9679","path":"sprites/sPlaceableBlock_Wood/sPlaceableBlock_Wood.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"c813dfa6-c7cd-47b3-9839-dba8b7b656d8","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c97e1449-0b43-41d1-a6b2-9ea8c25a9679","path":"sprites/sPlaceableBlock_Wood/sPlaceableBlock_Wood.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 9,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sPlaceableBlock_Wood","path":"sprites/sPlaceableBlock_Wood/sPlaceableBlock_Wood.yy",},
-    "resourceVersion": "1.4",
-    "name": "sPlaceableBlock_Wood",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"e9c102fa-4a85-4429-b921-3b7816ece79d","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e9c102fa-4a85-4429-b921-3b7816ece79d","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Placeable",
     "path": "folders/Sprites/World/Placeable.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sPlaceableBlock_Wood",
-  "tags": [],
-  "resourceType": "GMSprite",
 }

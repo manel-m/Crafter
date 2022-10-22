@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "sPlaceableWoodenChest",
   "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
@@ -24,12 +27,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"c78bc816-63d8-41e3-afed-ec9e55f428de","path":"sprites/sPlaceableWoodenChest/sPlaceableWoodenChest.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"c78bc816-63d8-41e3-afed-ec9e55f428de","path":"sprites/sPlaceableWoodenChest/sPlaceableWoodenChest.yy",},"LayerId":{"name":"0e8797c9-a0c2-46f0-ae64-8d24f5b524f8","path":"sprites/sPlaceableWoodenChest/sPlaceableWoodenChest.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"sPlaceableWoodenChest","path":"sprites/sPlaceableWoodenChest/sPlaceableWoodenChest.yy",},"resourceVersion":"1.0","name":"c78bc816-63d8-41e3-afed-ec9e55f428de","tags":[],"resourceType":"GMSpriteFrame",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c78bc816-63d8-41e3-afed-ec9e55f428de",},
   ],
   "sequence": {
-    "spriteId": {"name":"sPlaceableWoodenChest","path":"sprites/sPlaceableWoodenChest/sPlaceableWoodenChest.yy",},
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "sPlaceableWoodenChest",
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -37,12 +40,12 @@
     "autoRecord": true,
     "volume": 1.0,
     "length": 1.0,
-    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MessageEventKeyframe",},
-    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"MomentsEventKeyframe",},
+    "events": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MessageEventKeyframe>",},
+    "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
-      {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"b380e39f-fe0f-49e7-8dcb-27edbf0b6d6a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c78bc816-63d8-41e3-afed-ec9e55f428de","path":"sprites/sPlaceableWoodenChest/sPlaceableWoodenChest.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe`1","elementType":"SpriteFrameKeyframe",},
-          ],"resourceVersion":"1.0","resourceType":"KeyframeStore`1","elementType":"SpriteFrameKeyframe",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack","modifiers":[],},
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","spriteId":null,"keyframes":{"Keyframes":[
+            {"id":"b380e39f-fe0f-49e7-8dcb-27edbf0b6d6a","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"c78bc816-63d8-41e3-afed-ec9e55f428de","path":"sprites/sPlaceableWoodenChest/sPlaceableWoodenChest.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+          ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"isCreationTrack":false,"modifiers":[],},
     ],
     "visibleRange": null,
     "lockOrigin": false,
@@ -58,22 +61,13 @@
     "yorigin": 8,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"sPlaceableWoodenChest","path":"sprites/sPlaceableWoodenChest/sPlaceableWoodenChest.yy",},
-    "resourceVersion": "1.4",
-    "name": "sPlaceableWoodenChest",
-    "tags": [],
-    "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"0e8797c9-a0c2-46f0-ae64-8d24f5b524f8","tags":[],"resourceType":"GMImageLayer",},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0e8797c9-a0c2-46f0-ae64-8d24f5b524f8","visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default",},
   ],
   "nineSlice": null,
   "parent": {
     "name": "Chest",
     "path": "folders/Sprites/World/Placeable/Chest.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sPlaceableWoodenChest",
-  "tags": [],
-  "resourceType": "GMSprite",
 }
