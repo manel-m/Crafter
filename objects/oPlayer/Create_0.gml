@@ -48,3 +48,8 @@ plant_dirt = noone;
 //When the player is watering the plants
 using_water = false;
 water_dirt = noone;
+
+//auto Move when player moves to the target
+autoMove = false;
+autoMoveX = 0;
+autoMoveY = 0;

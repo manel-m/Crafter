@@ -2,15 +2,25 @@
 //Juice
 Juice_Step();
 
-// Get input buttons 
-var _right = keyboard_check(vk_right)or keyboard_check(ord("D"));
-var _left = keyboard_check(vk_left)or keyboard_check(ord("A"));
-var _up = keyboard_check(vk_up)or keyboard_check(ord("W"));
-var _down = keyboard_check(vk_down)or keyboard_check(ord("S"));
+if (autoMove){
+	var _inputX  = sign(autoMoveX - x);
+	var _inputY = sign(autoMoveY - y);
+	
+	if (x == autoMoveX && y == autoMoveY) autoMove = false;
 
-//Inputs axis
-var _inputX = _right - _left;
-var _inputY =  _down- _up;
+} else {
+	// Get input buttons 
+	var _right = keyboard_check(vk_right)or keyboard_check(ord("D"));
+	var _left = keyboard_check(vk_left)or keyboard_check(ord("A"));
+	var _up = keyboard_check(vk_up)or keyboard_check(ord("W"));
+	var _down = keyboard_check(vk_down)or keyboard_check(ord("S"));
+
+	//Inputs axis
+	var _inputX = _right - _left;
+	var _inputY =  _down- _up;
+
+}
+
 
 // Get movment speed 
 moveX= _inputX * moveSpeed;
@@ -91,7 +101,7 @@ if (using_pickaxe) {
 
 //Direction
 var _signMouse = sign(mouse_x - x);
-if (_signMouse != 0 ){
+if (_signMouse != 0 && !autoMove){
 	image_xscale = _signMouse;
 }
 
