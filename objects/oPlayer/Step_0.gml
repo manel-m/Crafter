@@ -50,6 +50,7 @@ if (collision(x, y + moveY)){
 	//show_debug_message("PLAYER COLLISION")
 
 }
+
 if (moveX ==0 && moveY == 0 && autoMove) autoMove = false;
 
 //Move instance
@@ -59,10 +60,26 @@ y += moveY;
 if (using_pickaxe && !autoMove) {
 	//show_debug_message("USING_PICKAXE")
 	sprite_index = sPlayer_Pickaxe ;
+	if (start_pichaxe) 	{
+		image_index = 0; // restart animation to 0
+		start_pichaxe = false;
+	}
+
 	if (image_index >= image_number - 1) {
 		using_pickaxe = false;
 	}
 } else if (using_shovel && !autoMove) {
+	if (start_shovel) {
+		//show_message("start shovel, x="+string(x)+", dirt.x="+string(shovel_dirt.x));
+		//// we just started using the shovel
+		//// make sure we are facing the dirt
+		if (x > shovel_dirt.x) // player should face left
+			image_xscale = -1
+		else
+			image_xscale = 1;
+		image_index = 0; // restart animation to 0
+		start_shovel = false;
+	}
 	//show_debug_message("USING_SHOVEL")
 	sprite_index = sPlayer_Shovel ;
 	if (image_index >= image_number - 1) {
@@ -96,7 +113,7 @@ if (using_pickaxe && !autoMove) {
 
 //Direction
 var _signMouse = sign(mouse_x - x);
-if (_signMouse != 0 && !autoMove){
+if (_signMouse != 0 && !autoMove && !using_pickaxe && !using_shovel){
 	image_xscale = _signMouse;
 }
 

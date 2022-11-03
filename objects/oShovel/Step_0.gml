@@ -22,6 +22,7 @@ with (_dirt){
 		//click
 		if(!oPlayer.using_shovel&& _mousePress){
 			oPlayer.using_shovel = true;
+			oPlayer.start_shovel = true;
 			oPlayer.image_index = 0;
 			oPlayer.shovel_dirt = id;
 			oPlayer.autoMove = true;
