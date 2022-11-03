@@ -50,20 +50,21 @@ if (collision(x, y + moveY)){
 	//show_debug_message("PLAYER COLLISION")
 
 }
+if (moveX ==0 && moveY == 0 && autoMove) autoMove = false;
 
 //Move instance
 x += moveX;
 y += moveY;
 
-if (using_pickaxe) {
+if (using_pickaxe && !autoMove) {
 	//show_debug_message("USING_PICKAXE")
 	sprite_index = sPlayer_Pickaxe ;
-	if (image_index >= image_number - 1) {
-		using_pickaxe = false;
-		with (pickaxe_breakable){
-			event_user(0);
-		}
-	}
+	//if (image_index >= image_number - 1) {
+	//	using_pickaxe = false;
+	//	with (pickaxe_breakable){
+	//		event_user(0);
+	//	}
+	//}
 } else if (using_shovel) {
 	//show_debug_message("USING_SHOVEL")
 	sprite_index = sPlayer_Shovel ;

@@ -31,7 +31,7 @@ with (_breakable){
 			} else {
 				oPlayer.autoMoveX = x + 20;
 			}
-			oPlayer.autoMoveY = y - 10 ; // use bbbox ?
+			oPlayer.autoMoveY = y - 10 ; 
 		
 		}
 	}
