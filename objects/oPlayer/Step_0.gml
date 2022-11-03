@@ -59,20 +59,14 @@ y += moveY;
 if (using_pickaxe && !autoMove) {
 	//show_debug_message("USING_PICKAXE")
 	sprite_index = sPlayer_Pickaxe ;
-	//if (image_index >= image_number - 1) {
-	//	using_pickaxe = false;
-	//	with (pickaxe_breakable){
-	//		event_user(0);
-	//	}
-	//}
+	if (image_index >= image_number - 1) {
+		using_pickaxe = false;
+	}
 } else if (using_shovel && !autoMove) {
 	//show_debug_message("USING_SHOVEL")
 	sprite_index = sPlayer_Shovel ;
 	if (image_index >= image_number - 1) {
 		using_shovel = false;
-		with (shovel_dirt){
-			event_user(1);
-		}
 	}
 } else if (using_plant) {
 	sprite_index = sPlayer_Plant ;
