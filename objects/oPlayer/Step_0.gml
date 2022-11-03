@@ -85,8 +85,16 @@ if (using_pickaxe && !autoMove) {
 	if (image_index >= image_number - 1) {
 		using_shovel = false;
 	}
-} else if (using_plant) {
+} else if (using_plant && !autoMove) {
 	sprite_index = sPlayer_Plant ;
+	if (start_planting) {
+		if (x > shovel_dirt.x) // player should face left
+			image_xscale = -1
+		else
+			image_xscale = 1;
+		image_index = 0; // restart animation to 0
+		start_planting = false;
+	}
 	if (image_index >= image_number - 1) {
 		using_plant = false;
 		with (plant_dirt){
@@ -113,7 +121,7 @@ if (using_pickaxe && !autoMove) {
 
 //Direction
 var _signMouse = sign(mouse_x - x);
-if (_signMouse != 0 && !autoMove && !using_pickaxe && !using_shovel){
+if (_signMouse != 0 && !autoMove && !using_pickaxe && !using_shovel && !using_plant){
 	image_xscale = _signMouse;
 }
 

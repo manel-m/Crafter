@@ -25,8 +25,15 @@ with (_dirt){
 		if(!oPlayer.using_plant && _mousePress){
 			show_debug_message("oPlant Action")
 			oPlayer.using_plant = true;
-			oPlayer.image_index = 0;
+			oPlayer.start_planting = true;
 			oPlayer.plant_dirt = id;
+			oPlayer.autoMove = true;
+			if (oPlayer.x < x) {
+				oPlayer.autoMoveX = x - 7;
+			} else {
+				oPlayer.autoMoveX = x + 23;
+			}
+			oPlayer.autoMoveY = y + 3;
 			//Reduce hp
 			//hp --;
 			//Set rotation

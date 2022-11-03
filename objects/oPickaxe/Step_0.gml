@@ -24,7 +24,6 @@ with (_breakable){
 		
 			oPlayer.using_pickaxe = true;
 			oPlayer.start_pichaxe = true;
-			oPlayer.image_index = 0;
 			oPlayer.pickaxe_breakable = id;
 			oPlayer.autoMove = true;
 			if (oPlayer.x < x) {
