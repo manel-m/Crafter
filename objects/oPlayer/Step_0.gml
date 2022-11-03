@@ -65,7 +65,7 @@ if (using_pickaxe && !autoMove) {
 	//		event_user(0);
 	//	}
 	//}
-} else if (using_shovel) {
+} else if (using_shovel && !autoMove) {
 	//show_debug_message("USING_SHOVEL")
 	sprite_index = sPlayer_Shovel ;
 	if (image_index >= image_number - 1) {

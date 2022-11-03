@@ -17,13 +17,22 @@ with (_dirt){
 	// Dig holes
 	if ((image_index == 0 || image_index == 4) && _dist < other.breakDistance){
 		// Set selector
-		other.selectorInst = id;
+		if (!oPlayer.using_shovel) other.selectorInst = id;
 		
 		//click
 		if(!oPlayer.using_shovel&& _mousePress){
 			oPlayer.using_shovel = true;
 			oPlayer.image_index = 0;
 			oPlayer.shovel_dirt = id;
+			oPlayer.autoMove = true;
+			if (oPlayer.x < x) {
+				oPlayer.autoMoveX = x - 7;
+			} else {
+				oPlayer.autoMoveX = x + 23;
+			}
+			oPlayer.autoMoveY = y + 3; 
+
 		}
 	}
 }
+		
