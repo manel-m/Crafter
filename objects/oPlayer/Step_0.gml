@@ -88,7 +88,7 @@ if (using_pickaxe && !autoMove) {
 } else if (using_plant && !autoMove) {
 	sprite_index = sPlayer_Plant ;
 	if (start_planting) {
-		if (x > shovel_dirt.x) // player should face left
+		if (x > plant_dirt.x) // player should face left
 			image_xscale = -1
 		else
 			image_xscale = 1;
@@ -101,9 +101,17 @@ if (using_pickaxe && !autoMove) {
 			event_user(2);
 		}
 	}
-} else if (using_water) {
+} else if (using_water && !autoMove) {
 
 	sprite_index = sPlayer_Water ;
+	if (start_watering) {
+		if (x > water_dirt.x) // player should face left
+			image_xscale = -1
+		else
+			image_xscale = 1;
+	image_index = 0; // restart animation to 0
+	start_watering = false;
+	}
 	//if (image_index >= image_number - 1) {
 	//	// end using water tool
 	//	using_water = false;
@@ -111,7 +119,7 @@ if (using_pickaxe && !autoMove) {
 	//		event_user(0);
 	//	}
 	//}
-} else if (moveX != 0 or moveY != 0){
+} else if (moveX != 0 or moveY != 0 && using_pickaxe){
 		//Animation: Move 
 	sprite_index = sPlayer_Move;
 } else {
@@ -121,7 +129,7 @@ if (using_pickaxe && !autoMove) {
 
 //Direction
 var _signMouse = sign(mouse_x - x);
-if (_signMouse != 0 && !autoMove && !using_pickaxe && !using_shovel && !using_plant){
+if (_signMouse != 0 && !autoMove && !using_pickaxe && !using_shovel && !using_plant && !using_water){
 	image_xscale = _signMouse;
 }
 

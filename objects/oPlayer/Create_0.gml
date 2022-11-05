@@ -51,6 +51,7 @@ start_planting = false; // will be true when event Step is called first time whe
 //When the player is watering the plants
 using_water = false;
 water_dirt = noone;
+start_watering = false; // will be true when event Step is called first time when using_shovel
 
 //auto Move when player moves to the target
 autoMove = false;

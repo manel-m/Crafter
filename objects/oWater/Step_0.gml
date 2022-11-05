@@ -23,12 +23,17 @@ with (_dirt){
 		if(!oPlayer.using_water && _mousePress){
 			
 			oPlayer.using_water = true;
+			oPlayer.start_watering = true;
 			oPlayer.image_index = 0;
 			oPlayer.water_dirt = id;
 			oPlayer.alarm[0] = room_speed * 1 // alarm in oPlayer to end water animation
-			
-			
-			
+			oPlayer.autoMove = true;
+			if (oPlayer.x < x) {
+				oPlayer.autoMoveX = x - 7;
+			} else {
+				oPlayer.autoMoveX = x + 23;
+			}
+			oPlayer.autoMoveY = y ; 
 		}
 	}
 
