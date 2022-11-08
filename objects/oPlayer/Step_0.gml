@@ -2,13 +2,13 @@
 //Juice
 Juice_Step();
 
-if (autoMove){
+if (autoMove) {
 	var _inputX  = sign(autoMoveX - x);
 	var _inputY = sign(autoMoveY - y);
 	
 	if (x == autoMoveX && y == autoMoveY) autoMove = false;
 
-} else {
+} else if (!using_pickaxe && !using_shovel && !using_plant && !using_water) {
 	// Get input buttons 
 	var _right = keyboard_check(vk_right)or keyboard_check(ord("D"));
 	var _left = keyboard_check(vk_left)or keyboard_check(ord("A"));
@@ -18,7 +18,9 @@ if (autoMove){
 	//Inputs axis
 	var _inputX = _right - _left;
 	var _inputY =  _down- _up;
-
+} else {
+	var _inputX = 0;
+	var _inputY = 0;
 }
 
 
@@ -119,7 +121,7 @@ if (using_pickaxe && !autoMove) {
 	//		event_user(0);
 	//	}
 	//}
-} else if (moveX != 0 or moveY != 0 && using_pickaxe){
+} else if (moveX != 0 or moveY != 0 ){
 		//Animation: Move 
 	sprite_index = sPlayer_Move;
 } else {
