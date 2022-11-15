@@ -23,8 +23,15 @@ with (_breakable){
 		if(!oPlayer.using_pickaxe && _mousePress){
 		
 			oPlayer.using_pickaxe = true;
-			oPlayer.image_index = 0;
+			oPlayer.start_pichaxe = true;
 			oPlayer.pickaxe_breakable = id;
+			oPlayer.autoMove = true;
+			if (oPlayer.x < x) {
+				oPlayer.autoMoveX = x - 20;
+			} else {
+				oPlayer.autoMoveX = x + 20;
+			}
+			oPlayer.autoMoveY = y - 10 ; 
 		
 		}
 	}
