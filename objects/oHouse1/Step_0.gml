@@ -1,17 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
 // Inherit the parent event
 event_inherited();
 
-//Ressources 
-//res =[ITEM.WOOD];
-//resCount = 3;
-
-//hp = 4;
-//hpMax = hp;
-
-nonBreakable =true;
-notBuilt =false;
-
+if (notBuilt) image_alpha = 0.2;
+else image_alpha = 1;
 

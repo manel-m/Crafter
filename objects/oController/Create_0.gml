@@ -36,9 +36,9 @@ cMenuScroll = 0;
 cMenuHeight = 0;
 	
 // add some starting items to the inventory
-inv_add(ITEM.WOOD, 8);
-inv_add(ITEM.STONE,8);
-inv_add(ITEM.IRON,8);
+inv_add(ITEM.WOOD, 9);
+inv_add(ITEM.STONE,9);
+inv_add(ITEM.IRON,9);
 
 
 
