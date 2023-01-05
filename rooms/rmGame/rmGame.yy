@@ -103,6 +103,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5321C55E","properties":[],"isDnd":false,"objectId":{"name":"oButtonSelectSeeds","path":"objects/oButtonSelectSeeds/oButtonSelectSeeds.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":7.0,"y":128.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7C3CDB53","properties":[],"isDnd":false,"objectId":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":424.0,"y":296.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5763D300","properties":[],"isDnd":false,"objectId":{"name":"oBush","path":"objects/oBush/oBush.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":760.0,"y":672.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_37D79D7E","properties":[],"isDnd":false,"objectId":{"name":"oHouse1","path":"objects/oHouse1/oHouse1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":464.0,"y":240.0,},
       ],"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":8,"gridY":8,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"FarmPlot","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1431A5A0","properties":[],"isDnd":false,"objectId":{"name":"oDirt","path":"objects/oDirt/oDirt.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":448.0,"y":272.0,},
@@ -350,6 +351,7 @@
     {"name":"inst_6B874C7","path":"rooms/rmGame/rmGame.yy",},
     {"name":"inst_177FE2A","path":"rooms/rmGame/rmGame.yy",},
     {"name":"inst_FC729F8","path":"rooms/rmGame/rmGame.yy",},
+    {"name":"inst_37D79D7E","path":"rooms/rmGame/rmGame.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

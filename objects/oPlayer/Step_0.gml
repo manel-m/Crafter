@@ -8,7 +8,7 @@ if (autoMove) {
 	
 	if (x == autoMoveX && y == autoMoveY) autoMove = false;
 
-} else if (!using_pickaxe && !using_shovel && !using_plant && !using_water) {
+} else if (!using_pickaxe && !using_shovel && !using_plant && !using_water && !using_hammer) {
 	// Get input buttons 
 	var _right = keyboard_check(vk_right)or keyboard_check(ord("D"));
 	var _left = keyboard_check(vk_left)or keyboard_check(ord("A"));
@@ -84,7 +84,7 @@ if (using_pickaxe && !autoMove) {
 	}
 	//show_debug_message("USING_SHOVEL")
 	sprite_index = sPlayer_Shovel ;
-	if (image_index >= image_number - 1) {
+	if (image_index >= image_number - 1) {														
 		using_shovel = false;
 	}
 } else if (using_plant && !autoMove) {
@@ -114,6 +114,7 @@ if (using_pickaxe && !autoMove) {
 	image_index = 0; // restart animation to 0
 	start_watering = false;
 	}
+
 	//if (image_index >= image_number - 1) {
 	//	// end using water tool
 	//	using_water = false;
@@ -121,6 +122,27 @@ if (using_pickaxe && !autoMove) {
 	//		event_user(0);
 	//	}
 	//}
+	
+} else if (using_hammer && !autoMove) {
+
+	sprite_index = sPlayer_Hammer ;
+	if (start_building) {
+		if (x > hammer_buildable.x) // player should face left
+			image_xscale = -1
+		else
+			image_xscale = 1;
+	image_index = 0; // restart animation to 0
+	start_building = false;
+	}
+	
+	if (image_index >= image_number - 1) {
+		// end using water tool
+		using_hammer = false;
+		with (hammer_buildable){
+			event_user(0);
+		}
+	}
+
 } else if (moveX != 0 or moveY != 0 ){
 		//Animation: Move 
 	sprite_index = sPlayer_Move;

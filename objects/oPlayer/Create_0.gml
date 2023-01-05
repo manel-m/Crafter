@@ -38,7 +38,7 @@ seedType = sCarrotInv;
 // true when the player is using the pickaxe
 using_pickaxe = false;
 pickaxe_breakable = noone;
-start_pichaxe = false; // will be true when event Step is called first time when using_shovel
+start_pichaxe = false; // will be true when event Step is called first time when using_pickaxe
 // true when the player is using the shovel
 using_shovel = false;
 shovel_dirt = noone;
@@ -46,12 +46,17 @@ start_shovel = false; // will be true when event Step is called first time when 
 // when the player plants the seeds
 using_plant = false;
 plant_dirt = noone;
-start_planting = false; // will be true when event Step is called first time when using_shovel
+start_planting = false; // will be true when event Step is called first time when using_plant
 
 //When the player is watering the plants
 using_water = false;
 water_dirt = noone;
-start_watering = false; // will be true when event Step is called first time when using_shovel
+start_watering = false; // will be true when event Step is called first time when using_water
+
+//When the player is buildind the houses
+using_hammer = false;
+hammer_buildable = noone;
+start_building = false; // will be true when event Step is called first time when using_hammer
 
 //auto Move when player moves to the target
 autoMove = false;
