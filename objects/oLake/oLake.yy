@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oLake",
   "spriteId": {
     "name": "sLake",
     "path": "sprites/sLake/sLake.yy",
@@ -31,8 +34,4 @@
     "name": "World",
     "path": "folders/Objects/World.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oLake",
-  "tags": [],
-  "resourceType": "GMObject",
 }
