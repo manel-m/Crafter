@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oAxe",
   "spriteId": {
     "name": "sAxe",
     "path": "sprites/sAxe/sAxe.yy",
@@ -31,8 +34,4 @@
     "name": "Tools Objs",
     "path": "folders/Objects/Tools Objs.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oAxe",
-  "tags": [],
-  "resourceType": "GMObject",
 }

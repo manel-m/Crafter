@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oRoadsCollision",
   "spriteId": {
     "name": "sCollision",
     "path": "sprites/sCollision/sCollision.yy",
@@ -22,7 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,8 +33,4 @@
     "name": "World",
     "path": "folders/Objects/World.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oRoadsCollision",
-  "tags": [],
-  "resourceType": "GMObject",
 }

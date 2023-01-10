@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oHammer",
   "spriteId": {
     "name": "sHammer",
     "path": "sprites/sHammer/sHammer.yy",
@@ -31,8 +34,4 @@
     "name": "Tools Objs",
     "path": "folders/Objects/Tools Objs.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oHammer",
-  "tags": [],
-  "resourceType": "GMObject",
 }

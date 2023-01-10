@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oBuilding",
   "spriteId": {
     "name": "sBuilding1",
     "path": "sprites/sBuilding1/sBuilding1.yy",
@@ -31,8 +34,4 @@
     "name": "World",
     "path": "folders/Objects/World.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oBuilding",
-  "tags": [],
-  "resourceType": "GMObject",
 }

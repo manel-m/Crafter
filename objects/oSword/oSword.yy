@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oSword",
   "spriteId": {
     "name": "sSword",
     "path": "sprites/sSword/sSword.yy",
@@ -31,8 +34,4 @@
     "name": "Tools Objs",
     "path": "folders/Objects/Tools Objs.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oSword",
-  "tags": [],
-  "resourceType": "GMObject",
 }

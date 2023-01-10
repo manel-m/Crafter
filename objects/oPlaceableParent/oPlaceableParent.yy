@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oPlaceableParent",
   "spriteId": null,
   "solid": false,
   "visible": true,
@@ -28,8 +31,4 @@
     "name": "Placeable",
     "path": "folders/Objects/World/Placeable.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oPlaceableParent",
-  "tags": [],
-  "resourceType": "GMObject",
 }

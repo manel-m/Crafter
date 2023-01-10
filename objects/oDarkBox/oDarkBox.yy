@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oDarkBox",
   "spriteId": {
     "name": "sDarkBox",
     "path": "sprites/sDarkBox/sDarkBox.yy",
@@ -31,8 +34,4 @@
     "name": "GUI",
     "path": "folders/Objects/GUI.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oDarkBox",
-  "tags": [],
-  "resourceType": "GMObject",
 }

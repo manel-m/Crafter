@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "oGUI",
   "spriteId": null,
   "solid": false,
   "visible": true,
@@ -25,8 +28,4 @@
     "name": "GUI",
     "path": "folders/Objects/GUI.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "oGUI",
-  "tags": [],
-  "resourceType": "GMObject",
 }

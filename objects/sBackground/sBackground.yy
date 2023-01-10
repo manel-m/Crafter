@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "sBackground",
   "spriteId": {
     "name": "sBackgound",
     "path": "sprites/sBackgound/sBackgound.yy",
@@ -28,8 +31,4 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "sBackground",
-  "tags": [],
-  "resourceType": "GMObject",
 }
