@@ -1,16 +1,17 @@
 /// @description 
 // Resolution
 enum RES {
-	WIDTH = 320,
-	HEIGHT = 180,
-	SCALE = 4
+	WIDTH = 260,
+	HEIGHT = 260,
+	SCALE = 3
 }
 
 //cursor_sprite = sCursor;
 //window_set_cursor(cr_none);
 
 // Create camera 
-var _camera = camera_create_view(0,0,RES.WIDTH,RES.HEIGHT, 0, oPlayer, -1,-1,RES.WIDTH/2, RES.HEIGHT/2);
+//var _camera = camera_create_view(0,0,RES.WIDTH,RES.HEIGHT, 0, oPlayer, -1,-1,RES.WIDTH/2, RES.HEIGHT/2);
+var _camera = camera_create_view(30,50,RES.WIDTH,RES.HEIGHT, 0)
 
 //Set up view
 view_enabled = true;
