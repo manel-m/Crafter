@@ -29,7 +29,11 @@ if (pause) {
 	with (craftingLightBox){
 		y = ystart + other.cMenuScroll;
 	}
-	
-	
 }
 
+if (setupWoodFences) {
+	setupWoodFences = false;
+	with (oWoodFence) {
+		image_index = computeFenceIndex(x,y, object_index);
+	}
+}

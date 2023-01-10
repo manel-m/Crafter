@@ -35,6 +35,8 @@ craftingLightBox = noone;
 //Crafting menu
 cMenuScroll = 0;
 cMenuHeight = 0;
+
+setupWoodFences = true;
 	
 // add some starting items to the inventory
 inv_add(ITEM.WOOD, 8);
