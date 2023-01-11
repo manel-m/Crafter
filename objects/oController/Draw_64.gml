@@ -40,7 +40,7 @@ with (oPlayer) {
 		}
 		
 		// Draw heart
-		draw_sprite(sHeart, _subImg, _startX + _dist * i, _startY);
+		//draw_sprite(sHeart, _subImg, _startX + _dist * i, _startY);
 	
 	}
 }

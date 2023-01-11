@@ -107,7 +107,7 @@
     {"id":{"name":"oNewHole","path":"objects/oNewHole/oNewHole.yy",},"order":15,},
     {"id":{"name":"init","path":"scripts/init/init.yy",},"order":1,},
     {"id":{"name":"oStoneFence","path":"objects/oStoneFence/oStoneFence.yy",},"order":1,},
-    {"id":{"name":"sBackground","path":"objects/sBackground/sBackground.yy",},"order":1,},
+    {"id":{"name":"sBackground","path":"objects/sBackground/sBackground.yy",},"order":22,},
     {"id":{"name":"sShovelInv","path":"sprites/sShovelInv/sShovelInv.yy",},"order":4,},
     {"id":{"name":"sSpringSummerObject","path":"sprites/sSpringSummerObject/sSpringSummerObject.yy",},"order":18,},
     {"id":{"name":"sHole","path":"sprites/sHole/sHole.yy",},"order":5,},
