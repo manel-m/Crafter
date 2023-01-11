@@ -5,6 +5,6 @@
 event_inherited();
 
 //Sprites
-spriteIdle = sChicken;
-spriteMove = sChicken;
+spriteIdle = sChick;
+spriteMove = sChick;
 

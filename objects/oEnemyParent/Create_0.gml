@@ -15,7 +15,7 @@ targetY = 0;
 
 //Following 
 following = false;
-followDistance = 80;
+followDistance = 80/2;
 
 //Roaming
 roamDistance = 64;

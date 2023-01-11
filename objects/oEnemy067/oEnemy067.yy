@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oEnemy0",
+  "name": "oEnemy067",
   "spriteId": {
-    "name": "sChicken",
-    "path": "sprites/sChicken/sChicken.yy",
+    "name": "sChick",
+    "path": "sprites/sChick/sChick.yy",
   },
   "solid": false,
   "visible": true,
