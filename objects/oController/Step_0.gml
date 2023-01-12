@@ -2,9 +2,9 @@
 // Press Escape
 
 #region Pause
-if (keyboard_check_pressed(vk_escape)){
-	pauseToggle();
-}
+//if (keyboard_check_pressed(vk_escape)){
+//	pauseToggle();
+//}
 #endregion
 
 //Paused 

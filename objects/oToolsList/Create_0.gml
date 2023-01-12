@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var _toolList = [sPickaxeInv,sShovelInv, sHammerInv,sSwordInv,sAxeInv,sWaterInv, sPlantInv];
+var _toolList = [sPickaxeInv,sShovelInv,sWaterInv, sPlantInv];
 
 //Dimensions
 var _margin = 5;
