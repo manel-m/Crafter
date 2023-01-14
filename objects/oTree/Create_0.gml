@@ -6,6 +6,8 @@ event_inherited();
 
 //Ressources
 res = [ITEM.APPLE, ITEM.ORANGE,ITEM.WOOD];
+nonBreakable = true;
+
 
 hp = 3;
 hpMax = hp;

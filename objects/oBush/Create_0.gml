@@ -11,4 +11,5 @@ hp = 2;
 hpMax = hp;
 
 Juice_ApplySway(1,0.03);
+nonBreakable = true;
 
