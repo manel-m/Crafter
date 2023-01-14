@@ -7,5 +7,5 @@ event_inherited();
 //Ressources
 res = [ITEM.BEET];
 
-hp = 3;
+hp = 2;
 hpMax = hp;

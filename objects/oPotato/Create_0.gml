@@ -7,5 +7,5 @@ event_inherited();
 //Ressources
 res = [ITEM.POTATO];
 
-hp = 4;
+hp = 2;
 hpMax = hp;
