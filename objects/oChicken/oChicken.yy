@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oEnemy067",
+  "name": "oChicken",
   "spriteId": {
-    "name": "sChick",
-    "path": "sprites/sChick/sChick.yy",
+    "name": "sChicken",
+    "path": "sprites/sChicken/sChicken.yy",
   },
   "solid": false,
   "visible": true,
@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oEnemyParent",
-    "path": "objects/oEnemyParent/oEnemyParent.yy",
+    "name": "oAnimalParent",
+    "path": "objects/oAnimalParent/oAnimalParent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -33,7 +33,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "Animals",
+    "path": "folders/Objects/Animals.yy",
   },
 }

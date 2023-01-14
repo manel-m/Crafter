@@ -13,7 +13,7 @@ var _mousePress = mouse_check_button(mb_left);
 
 #region enemy
 //Get enemy instance at mouse position
-var _enemy = instance_position(mouse_x, mouse_y, oEnemyParent);
+var _enemy = instance_position(mouse_x, mouse_y, oAnimalParent);
 
 with (_enemy){
 	//Get distance 

@@ -50,7 +50,7 @@ if (following) {
 	var _newX = x + inputX * moveSpeed;
 	var _newY = y + inputY * moveSpeed;
 	
-	if (place_meeting(_newX, _newY, oEnemyParent)) {
+	if (place_meeting(_newX, _newY, oAnimalParent)) {
 		inputX = 0;
 		inputY = 0;
 	}

@@ -1,19 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "oEnemy0",
-  "spriteId": {
-    "name": "sChicken",
-    "path": "sprites/sChicken/sChicken.yy",
-  },
+  "name": "oAnimalParent",
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "oEnemyParent",
-    "path": "objects/oEnemyParent/oEnemyParent.yy",
+    "name": "oNPCParent",
+    "path": "objects/oNPCParent/oNPCParent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -29,11 +26,13 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Enemies",
-    "path": "folders/Objects/Enemies.yy",
+    "name": "Animals",
+    "path": "folders/Objects/Animals.yy",
   },
 }
