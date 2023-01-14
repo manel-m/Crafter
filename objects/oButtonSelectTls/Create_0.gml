@@ -9,4 +9,4 @@ height = sprite_height;
 
 toolSetOpen = false
 
-toolSprite = sPickaxeInv;
+toolSprite = sShovelInv;

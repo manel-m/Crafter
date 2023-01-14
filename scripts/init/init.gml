@@ -38,13 +38,13 @@ function init(){
 		
 	}
 	
-	initItem(ITEM.APPLE, "Apple", sApple, [], undefined, 8);
-	initItem(ITEM.ORANGE, "Orange", sOrange, [],undefined, 8);
+	initItem(ITEM.APPLE, "Apple", sApple, [], undefined, 99);
+	initItem(ITEM.ORANGE, "Orange", sOrange, [],undefined, 99);
 	initItem(ITEM.WOOD, "Wood", sWood, []);
-	initItem(ITEM.CARROT, "Carrot", sCarrot, []);
-	initItem(ITEM.SUNFLOWER, "Sunflower", sSunflower, [], undefined,6);
-	initItem(ITEM.POTATO, "Potato", sPotato, [], undefined,6);
-	initItem(ITEM.BEET, "Beet", sBeetroot, [], undefined,6);
+	initItem(ITEM.CARROT, "Carrot", sCarrot, [],undefined, 99);
+	initItem(ITEM.SUNFLOWER, "Sunflower", sSunflower, [], undefined,99);
+	initItem(ITEM.POTATO, "Potato", sPotato, [], undefined,99);
+	initItem(ITEM.BEET, "Beet", sBeetroot, [], undefined,99);
 
 
 	

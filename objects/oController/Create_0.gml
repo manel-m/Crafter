@@ -42,6 +42,13 @@ setupWoodFences = true;
 inv_add(ITEM.WOOD, 8);
 inv_add(ITEM.STONE,8);
 inv_add(ITEM.IRON,8);
+//inv_add(ITEM.BEET,3);
+//inv_add(ITEM.CARROT,2);
+//inv_add(ITEM.SUNFLOWER,2);
+//inv_add(ITEM.POTATO,14);
+
+
+
 
 
 

@@ -18,6 +18,7 @@ if (hover && lclick) {
 		var _item = _arr[0];
 		var _count = _arr[1];
 		
+		
 		//Effects
 		instance_activate_object(oPlayer);
 		
