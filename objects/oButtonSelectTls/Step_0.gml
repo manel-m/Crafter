@@ -1,6 +1,9 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+buttonScale += 0.1;
+
+
 if (hover && lclick) {
 	if (toolSetOpen){
 		event_user(0);

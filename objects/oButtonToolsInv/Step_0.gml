@@ -50,6 +50,11 @@ if (hover && lclick) {
 		instance_destroy(heldItem);
 		heldItem = instance_create_layer(x,y,"Instances",_toolObject); 
 		show_debug_message("sprite selected");
+		if (_toolObject == oShovel){
+			with (oButtonSelectTls) {
+				event_user(1);
+			}
+		}
 	}
 	
 	with (oButtonSelectTls) {

@@ -21,6 +21,10 @@ with (_dirt){
 		
 		//click
 		if(!oPlayer.using_shovel&& _mousePress){
+			//oTutoSelector.visible = false;
+			with oTutoSelector {
+				event_user(0);
+			}
 			oPlayer.using_shovel = true;
 			oPlayer.start_shovel = true;
 			oPlayer.shovel_dirt = id;

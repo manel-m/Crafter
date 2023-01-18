@@ -84,6 +84,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_44EBA19A","properties":[],"isDnd":false,"objectId":{"name":"oWoodFence","path":"objects/oWoodFence/oWoodFence.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":112.0,"y":240.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_C198C44","properties":[],"isDnd":false,"objectId":{"name":"oWoodFence","path":"objects/oWoodFence/oWoodFence.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":128.0,"y":240.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_32883B4B","properties":[],"isDnd":false,"objectId":{"name":"oWoodFence","path":"objects/oWoodFence/oWoodFence.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":144.0,"y":240.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_55D26F4B","properties":[],"isDnd":false,"objectId":{"name":"oTutoSelector","path":"objects/oTutoSelector/oTutoSelector.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":192.0,"y":176.0,},
       ],"visible":true,"depth":-261,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritVisibility":true,"inheritSubLayers":true,"gridX":16,"gridY":16,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"barrierCollision","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_54C0743A","properties":[],"isDnd":false,"objectId":{"name":"oBarrierCollision","path":"objects/oBarrierCollision/oBarrierCollision.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":5.328125,"scaleY":0.40625,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":162.5,"y":33.0,},
@@ -441,6 +442,7 @@
     {"name":"inst_2E3E3592","path":"rooms/rmJam2023/rmJam2023.yy",},
     {"name":"inst_28DA9923","path":"rooms/rmJam2023/rmJam2023.yy",},
     {"name":"inst_17F6B479","path":"rooms/rmJam2023/rmJam2023.yy",},
+    {"name":"inst_55D26F4B","path":"rooms/rmJam2023/rmJam2023.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
