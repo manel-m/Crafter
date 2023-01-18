@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var _seedList = [sCarrotInv, sPotatoInv,sSunflowerInv,sBeetInv ];
+var _seedList = [sBeetInv,sCarrotInv, sPotatoInv,sSunflowerInv ];
 
 //Dimensions
 var _margin = 5;

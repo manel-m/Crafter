@@ -19,7 +19,7 @@ if (hover) {
 	//Draw background
 	draw_set_color(c_dkgray);
 	//draw_rectangle(_x, _y, 40, _y + 44, 0);
-	draw_sprite_ext(sWhiteBox, 0 , _x, _y, (_cellSize  +2 )/9,(_cellSize  +2)/9 , 0, c_white, 1 );
+	draw_sprite_ext(sWhiteBox, 0 , _x-1, _y-1, (_cellSize  +3 )/9,(_cellSize  +3)/9 , 0, c_white, 1 );
 	draw_set_color(c_white);
 	
 

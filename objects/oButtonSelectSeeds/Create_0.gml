@@ -9,4 +9,4 @@ height = sprite_height;
 
 seedSetOpen = false;
 
-seedSprite = sCarrot;
+seedSprite = sBeetInv;
